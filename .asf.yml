@@ -1,12 +1,5 @@
-# Staging and publishing profile for yourproject-website.git:
-staging:
-  profile: ~
-  whoami:  asf-staging
- 
-publish:
-  whoami:  main
-
-  
 jekyll:
   whoami: main
   target: asf-site
+publish:
+  whoami: asf-site
