@@ -50,11 +50,15 @@ header {
         font-size: 24px;
         font-family: Helvetica, Arial, sans-serif;
     }
-    
 }
 
 footer {
     background-color: #282661;
     color: white;
     min-height: 100px;
+}
+
+main {
+    padding: 0.5em;
+    font-family: Helvetica, Arial, sans-serif;
 }

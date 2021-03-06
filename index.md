@@ -26,4 +26,23 @@ Welcome to the Data Privacy website.
 The Apache Software Foundation is committed to protect the privacy
 of their Members, Committers and Users.
 
-We are supporting the GDPR.
+## Privacy related questions
+
+If you have questions related to privacy at 
+The Apache Software Foundation which are not of confidential
+nature, feel free to ask at our (archived) mailing list:
+
+privacy@apache.org
+
+If you have confidential questions, please reach out to
+V.P., Data Privacy directly:
+
+vp-privacy@apache.org
+
+## Privacy complaints / Removal requests
+
+If you have complaints aligning with the GDPR or CCPA,
+please reach out to:
+
+vp-privacy@apache.org
+
