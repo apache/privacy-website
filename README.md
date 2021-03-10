@@ -31,7 +31,7 @@ Once it runs, you can reach your website at:
 http://localhost:4000/
 ```
 
-Jekyll will regenerate content as you change it and you can see all changes with 
+Jekyll will regenerate content as you change it and you can see all changes with
 hitting refresh.
 
 If you find it necessary to connect to your Docker instance while working, you can run

@@ -21,14 +21,14 @@ layout: default
 
 # ASF - Data Privacy
 
-Welcome to the Data Privacy website. 
+Welcome to the Data Privacy website.
 
 The Apache Software Foundation is committed to protect the privacy
 of their Members, Committers and Users.
 
 ## Privacy related questions
 
-If you have questions related to privacy at 
+If you have questions related to privacy at
 The Apache Software Foundation which are not of confidential
 nature, feel free to ask at our (archived) mailing list:
 
