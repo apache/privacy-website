@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import 'main.scss';\n",
+		"/*\nLicensed to the Apache Software Foundation (ASF) under one\nor more contributor license agreements.  See the NOTICE file\ndistributed with this work for additional information\nregarding copyright ownership.  The ASF licenses this file\nto you under the Apache License, Version 2.0 (the\n\"License\"); you may not use this file except in compliance\nwith the License.  You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing,\nsoftware distributed under the License is distributed on an\n\"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\nKIND, either express or implied.  See the License for the\nspecific language governing permissions and limitations\nunder the License.\n*/\n\nhtml, body {\n    width: 100%;\n    height: 100%;\n    margin: 0 auto;\n}\n\nbody {\n    min-height: 100%;\n    display: grid;\n    grid-template-rows: auto 1fr auto;\n    grid-template-columns: 100%;\n}\n\nheader {\n    display: grid;\n    grid-template-columns: 20% 80%;\n    border-top: 1em solid #282661;\n    padding: 0.5em;\n\n    .header-logo {\n        display: flex;\n    }\n\n    .header-logo svg {\n        max-height: 100px;\n    }\n\n    .header-text {\n        display: flex;\n        align-items: center;\n        font-size: 24px;\n        font-family: Helvetica, Arial, sans-serif;\n    }\n}\n\nfooter {\n    background-color: #282661;\n    color: white;\n    min-height: 100px;\n}\n\nmain {\n    padding: 0.5em;\n    font-family: Helvetica, Arial, sans-serif;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACmBA,AAAA,IAAI,CAAE,IAAI,AAAC,CACP,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,MAAM,CAAE,MAAM,CACjB,AAED,AAAA,IAAI,AAAC,CACD,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,CACb,kBAAkB,CAAE,aAAa,CACjC,qBAAqB,CAAE,IAAI,CAC9B,AAED,AAAA,MAAM,AAAC,CACH,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,OAAO,CAC9B,UAAU,CAAE,iBAAiB,CAC7B,OAAO,CAAE,KAAK,CAgBjB,AApBD,AAMI,MANE,CAMF,YAAY,AAAC,CACT,OAAO,CAAE,IAAI,CAChB,AARL,AAUI,MAVE,CAUF,YAAY,CAAC,GAAG,AAAC,CACb,UAAU,CAAE,KAAK,CACpB,AAZL,AAcI,MAdE,CAcF,YAAY,AAAC,CACT,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,4BAA4B,CAC5C,AAGL,AAAA,MAAM,AAAC,CACH,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAE,KAAK,CACZ,UAAU,CAAE,KAAK,CACpB,AAED,AAAA,IAAI,AAAC,CACD,OAAO,CAAE,KAAK,CACd,WAAW,CAAE,4BAA4B,CAC5C"
+}
