@@ -17,6 +17,11 @@ specific language governing permissions and limitations
 under the License.
 */
 
+$font: Helvetica, Arial, sans-serif;
+$color_asf: #282661;
+$color_link: #4643aa;
+
+
 html, body {
     width: 100%;
     height: 100%;
@@ -32,8 +37,8 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 20% 80%;
-    border-top: 1em solid #282661;
+    grid-template-columns: 30% auto;
+    border-top: 1em solid $color_asf;
     padding: 0.5em;
 
     .header-logo {
@@ -48,7 +53,26 @@ header {
         display: flex;
         align-items: center;
         font-size: 24px;
-        font-family: Helvetica, Arial, sans-serif;
+        font-family: $font;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        ul {
+            list-style-type: none;
+            display: flex;
+            
+            li {
+                padding: 0 1.5em 0 1.5em;
+                border-right: 1px $color_asf solid;
+                a {
+                    font-family: $font;
+                    text-decoration: none;
+                    color: $color_link;
+                }
+            }
+        }
     }
 }
 
