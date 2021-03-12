@@ -23,6 +23,7 @@ $color_link: #4643aa;
 $color_dropdown: #EEE;
 $color_nav_item: #2f3036;
 $color_nav_hover: #1989c5;
+$color_header_text: #EEE;
 
 html, body {
     width: 100%;
@@ -56,7 +57,7 @@ header {
         align-items: center;
         font-size: 24px;
         font-family: $font;
-        color: $color_nav;
+        color: $color_header_text;
         padding-left: 20px;
     }
 
@@ -104,7 +105,7 @@ header {
 
         li:hover ul a {
             background: $color_dropdown;
-            color: #color_asf;
+            color: $color_asf;
             height: 40px;
             line-height: 40px;
         }
@@ -164,7 +165,7 @@ header {
 }
 
 footer {
-    background-color: #282661;
+    background-color: $color_nav_item;
     color: white;
     min-height: 100px;
 }
