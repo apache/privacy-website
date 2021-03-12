@@ -231,33 +231,70 @@
     </nav>
 </header>
         <main>
-            <h1 id="asf---data-privacy">ASF - Data Privacy</h1>
+            <h1 id="committers-faq">Committers FAQ</h1>
 
-<p>Welcome to the Data Privacy website.</p>
+<h2 id="project-websites">Project Websites</h2>
 
-<p>The Apache Software Foundation is committed to protect the privacy
-of their Members, Committers and Users.</p>
+<h3 id="can-i-use-google-analytics">Can I use Google Analytics?</h3>
 
-<h2 id="privacy-related-questions">Privacy related questions</h2>
+<p>The Apache Software Foundation discourages the use of Google Analytics.</p>
 
-<p>If you have questions related to privacy at 
-The Apache Software Foundation which are not of confidential
-nature, feel free to ask at our (archived) mailing list:</p>
+<p>Google Analytics can only be used if:</p>
 
-<p>privacy@apache.org</p>
+<ul>
+  <li>the users IP addressed would be anonymized before transmitting data</li>
+  <li>the user approved the use of Google Analytics it was loaded</li>
+</ul>
 
-<p>If you have confidential questions, please reach out to
-V.P., Data Privacy directly:</p>
+<p>Court decision around Google Analytics have changed various times
+in the past years and made it’s use uncertain.</p>
 
-<p>vp-privacy@apache.org</p>
+<h3 id="can-i-use-google-fonts">Can I use Google Fonts?</h3>
 
-<h2 id="privacy-complaints--removal-requests">Privacy complaints / Removal requests</h2>
+<p>You can use Google Fonts, but please host the fonts on ASF servers.</p>
 
-<p>If you have complaints aligning with the GDPR or CCPA,
-please reach out to:</p>
+<p>ASF projects don’t have any reasons to load Google Fonts from
+Google servers. Even <a href="https://wicki.io/posts/2020-11-goodbye-google-fonts/">performance wise</a>
+there is no reason to use Google CDNs.</p>
 
-<p>vp-privacy@apache.org</p>
+<p>To prevent any data being transmitted to a third party, please
+<a href="https://github.com/google/fonts#self-host-fonts-available-from-google-fonts">download the fonts and host them with your project website</a>.</p>
 
+<h3 id="can-i-embed-google-maps">Can I embed Google Maps?</h3>
+
+<p>Yes, you can use Google Maps, but they should only be activated after the user
+actively wants to use them. This can be done by showing a placeholder first
+and load the map when the user clicks on it. Please make it transparent
+that users will load a Google Map with their click.</p>
+
+<h3 id="can-i-embed-videos-from-youtube-vimeo-etc">Can I embed videos (from YouTube, Vimeo, etc.)?</h3>
+
+<p>Yes, you can embed videos on the website, but they should be loaded
+only after the user actively wants them to load. This can be done 
+by showing a placeholder first and load the video, when the user
+clicks on the placeholder. Please make it transparent that users
+will load video embeds from a third party.</p>
+
+<p>If you don’t want placeholders please consider self-hosted videos
+and using an open source player like <a href="https://github.com/sampotts/plyr">Plyr on GitHub</a>.</p>
+
+<h3 id="can-i-embed-social-plugins-in-example-like-buttons">Can I embed social plugins (in example Like-Buttons)?</h3>
+
+<p>Yes, but you can only load them when users actively want them
+to load. There is multiple open source solutions helping with
+that problem, like <a href="https://github.com/heiseonline/shariff">Shariff on GitHub</a>.</p>
+
+<h3 id="can-we-haven-an-official-facebook-fan-page">Can we haven an official Facebook fan page?</h3>
+
+<p>No.</p>
+
+<p>You cannot run an official ASF Facebook page.</p>
+
+<p>The german <a href="https://www.datenschutzkonferenz-online.de/media/dskb/20190405_positionierung_facebook_fanpages.pdf">Datenschutzkonferenz decided on 2019-04-01</a> that you cannot fulfill <a href="https://gdpr-info.eu/art-5-gdpr/">Art. 5 §2</a>. Also, it is not compatible with Art. 26.</p>
+
+<h3 id="can-i-add-a-facebooktwitter-etc-custom-pixel-for-creating-a-custom-audience">Can I add a Facebook/Twitter etc custom pixel for creating a custom audience?</h3>
+
+<p>No, not without approval from your user.</p>
 
         </main>
         <footer>
