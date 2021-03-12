@@ -20,12 +20,12 @@ under the License.
 $font: Helvetica, Arial, sans-serif;
 $main_background_color: #fff;
 $body_background_color: #f8f8f8;
-$color_asf: #282661;
+$color_text: #444;
 $color_link: #4643aa;
-$color_dropdown: #EEE;
+$color_dropdown: #eee;
 $color_nav_item: #2f3036;
 $color_nav_hover: #1989c5;
-$color_header_text: #EEE;
+$color_header_text: #eee;
 
 
 html, body {
@@ -109,7 +109,7 @@ header {
 
         li:hover ul a {
             background: $color_dropdown;
-            color: $color_asf;
+            color: $color_text;
             height: 40px;
             line-height: 40px;
         }
@@ -177,6 +177,7 @@ footer {
 main {
     padding: 0.5em;
     margin: 0 auto;
+    color: $color_text;
     background: $main_background_color;
     font-family: Helvetica, Arial, sans-serif;
 }
