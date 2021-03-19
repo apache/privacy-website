@@ -31,6 +31,7 @@ Google Analytics can only be used if:
 
  - the users IP addressed would be anonymized before transmitting data
  - the user approved the use of Google Analytics it was loaded
+ - you have a privacy policy clearly explaining what user data is collected on your web site
 
 Court decision around Google Analytics have changed various times
 in the past years and made it's use uncertain.
