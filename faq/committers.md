@@ -33,7 +33,7 @@ Google Analytics can only be used if:
  - the user approved the use of Google Analytics it was loaded
 
 Court decision around Google Analytics have changed various times
-in the past years and made it's use uncertain.
+in the past years and made its use uncertain.
 
 ### Can I use Google Fonts?
 
