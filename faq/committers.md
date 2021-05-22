@@ -19,7 +19,7 @@
 layout: default
 ---
 
-# Committers FAQ
+# Committers' FAQ
 
 ## Project Websites
 
@@ -27,56 +27,55 @@ layout: default
 
 The Apache Software Foundation discourages the use of Google Analytics.
 
-Google Analytics can only be used if:
+You can only use Google Analytics if:
 
- - the users IP addressed would be anonymized before transmitting data
- - the user approved the use of Google Analytics it was loaded
+ - the user's IP address would be anonymized before transmitting data
+ - the user approved the use of Google Analytics before it was loaded
 
-Court decision around Google Analytics have changed various times
-in the past years and made it's use uncertain.
+Court decisions around Google Analytics have changed several times
+in the past years and made its use uncertain.
 
 ### Can I use Google Fonts?
 
 You can use Google Fonts, but please host the fonts on ASF servers.
 
-ASF projects don't have any reasons to load Google Fonts from
-Google servers. Even [performance wise](https://wicki.io/posts/2020-11-goodbye-google-fonts/)
+ASF projects don't have any reason to load Google Fonts from
+Google servers. Even [performance wise](https://wicki.io/posts/2020-11-goodbye-google-fonts/),
 there is no reason to use Google CDNs.
 
-To prevent any data being transmitted to a third party, please
+To prevent any data being transmitted to a third party,
 [download the fonts and host them with your project website](https://github.com/google/fonts#self-host-fonts-available-from-google-fonts).
 
 ### Can I embed Google Maps?
 
-Yes, you can use Google Maps, but they should only be activated after the user
-actively wants to use them. This can be done by showing a placeholder first
-and load the map when the user clicks on it. Please make it transparent
+Yes, you can use Google Maps, but they should only activate if the user
+actively wants to use them. Arrange this by showing a placeholder image first
+and loading the map when the user clicks on the image. Make it clear
 that users will load a Google Map with their click.
 
 ### Can I embed videos (from YouTube, Vimeo, etc.)?
 
-Yes, you can embed videos on the website, but they should be loaded
-only after the user actively wants them to load. This can be done 
-by showing a placeholder first and load the video, when the user
-clicks on the placeholder. Please make it transparent that users
-will load video embeds from a third party.
+Yes, you can embed videos on the website, but they should load
+only after the user actively wants them to load. Arrange this 
+by showing a placeholder image first and loading the video after the user
+clicks on the image. Make it clear that users who click the image
+will load a video from a third party.
 
-If you don't want placeholders please consider self-hosted videos
-and using an open source player like [Plyr on GitHub](https://github.com/sampotts/plyr).
+If you don't want placeholder images, consider self-hosted videos
+and using an open source player like [Plyr](https://github.com/sampotts/plyr).
 
 ### Can I embed social plugins (in example Like-Buttons)?
 
 Yes, but you can only load them when users actively want them
-to load. There is multiple open source solutions helping with
-that problem, like [Shariff on GitHub](https://github.com/heiseonline/shariff).
+to load. There are many open source solutions to help you manage this, like [Shariff](https://github.com/heiseonline/shariff).
 
-### Can we haven an official Facebook fan page?
+### Can we have an official Facebook fan page?
 
 No. 
 
 You cannot run an official ASF Facebook page.
 
-The german [Datenschutzkonferenz decided on 2019-04-01](https://www.datenschutzkonferenz-online.de/media/dskb/20190405_positionierung_facebook_fanpages.pdf) that you cannot fulfill [Art. 5 §2](https://gdpr-info.eu/art-5-gdpr/). Also, it is not compatible with Art. 26. 
+The German [Datenschutzkonferenz decided on 2019-04-01](https://www.datenschutzkonferenz-online.de/media/dskb/20190405_positionierung_facebook_fanpages.pdf) that you cannot fulfill [Art. 5 §2](https://gdpr-info.eu/art-5-gdpr/). Also, having a fan page would not be compatible with Art. 26. 
 
 ### Can I add a Facebook/Twitter etc custom pixel for creating a custom audience?
 
