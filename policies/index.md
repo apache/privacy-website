@@ -19,7 +19,7 @@
 layout: default
 ---
 
-# AvailablePolicies
+# Available Policies
 
 ## Privacy Policies 
 
