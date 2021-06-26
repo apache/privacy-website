@@ -42,15 +42,13 @@ E-Mail: vp-privacy@apache.org
 
 ### a) When visiting the website
 
-**TODO: what other domains do we own?**
+When you visit our websites ([full list of websites](/policies/asf-domains.html)) or one of our subdomains, the browser used on your device automatically sends information to the server of our website. This information is temporarily stored in a so-called log file. The following information will be collected without your intervention and stored until automated deletion:
 
-When you visit our websites https://apache.org or one of our subdomains, the browser used on your device automatically sends information to the server of our website. This information is temporarily stored in a so-called log file. The following information will be collected without your intervention and stored until automated deletion:
-
-**TODO: Wait for Infra feedback**
  - IP address of the requesting computer,
  - date and time of access,
  - name and URL of the retrieved file,
  - website from which access is made (referrer URL),
+ - the geo information from which access is made,
  - The browser used and, if applicable, the operating system of your computer and the name of your access provider.
 
 The data mentioned are processed by us for the following purposes:
@@ -59,6 +57,8 @@ The data mentioned are processed by us for the following purposes:
  - ensuring comfortable use of our website,
  - Evaluation of system security and stability as well
  - for further administrative purposes.
+
+The retention time for this data is 90 days.
 
 The legal basis for data processing is Art. 6 para. 1 p. 1 lit. f GDPR. Our legitimate interest follows from the data collection purposes listed above. In no case we use the collected data for the purpose of drawing conclusions about you.
 In addition, we use cookies and analysis services when visiting our website. Further details can be found under no. 4 and 5 of this privacy policy.
@@ -111,11 +111,16 @@ The Apache Software Foundation uses the XXX to send the newsletter. This service
 **TODO: Ask marketing if we actually do things like this**
 The service manages data on which date and time emails were read, as well as when the user interacted with incoming emails, for example by clicking on links contained in the email. This is done by so-called web beacons, also called tracking pixels. These are small image files that allow an evaluation of user behavior. The user can object to this tracking at any time by unsubscribing from the newsletter. Such an evaluation is not possible even if the user has disabled the display of images in his email program by default. However, in this case, the newsletter can not be fully displayed and the user may not be able to fully use all features.
 
-### (b) Hetzner:- Hosting 
+### (b) Hetzner: Hosting 
 
-**TODO: Confirm if we actually use Hetzner** 
+The Apache Software Foundation uses the Hetzner Data Centers (Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany) for maintaining our servers. The servers are located in Finland and used for hosting databases and webcontent. 
 
-The Apache Software Foundation uses the Hetzner Webhosting service of Hetzner **TODO: add address**, for hosting databases and web content. The data is stored exclusively in a **TODO: WHAT COUNTRY** data center, **TODO CHECK CERTS** which is certified to ISO 27001, 27017 and 2018 as well as PCI DSS Level 1. Of course, we have tight access rights and the data is automatically encrypted.
+### (c) Amazon Web Services: DNS
+The Apache Software Foundation uses the Amazon Web Services ("AWS") service of Amazon Web Services, Inc. (P.O. Box 81226, Seattle, WA 98108-1226, USA), for hosting DNS records. As by the nature of DNS, the data is stored in several server accross the globe. AWS data centers are certified to ISO 27001, 27017 and 2018 as well as PCI DSS Level 1.
+
+### (d) LeaseWeb: Hosting 
+
+The Apache Software Foundation uses the LeaseWeb Data Centers (Leaseweb USA, Inc., 9301 Innovation Drive / Suite 100, Manassas, VA 20110) for maintaining our servers. The servers are located in the USA and used for hosting databases and webcontent. LeaseWeb fully supports the GDPR. Details and privacy statements can be found [here](https://www.leaseweb.us/legal/personal-data-protection-acts).
 
 ## 5. Social Media Plug-ins
 
