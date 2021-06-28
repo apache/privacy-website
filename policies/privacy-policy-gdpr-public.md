@@ -87,9 +87,6 @@ All content sent to mailing lists are archived indefinitely.
 
 Subscription to our newsletter and mailing lists may be terminated by the person concerned at any time. The consent to the storage of personal data that the data subject has given us for the newsletter/mailing list dispatch can be revoked at any time. For the purpose of revoking the consent, instructions are given by the end of any email. 
 
-**TODO: Check if there is such a service running**
-It is also possible to unsubscribe from the newsletter at any time, directly on the controller's website, or to inform the controller in a different way.
-
 ## 3. Disclosure of data
 
 A transfer of your personal data to third parties for purposes other than those listed below does not take place.
@@ -101,24 +98,17 @@ We only share your personal information with third parties if:
  - as permitted by law and according to Art. 6 para. 1 sentence 1 lit. b GDPR is required for the settlement of contractual relationships with you.
 
 ## 4. External service providers
+
 The Apache Software Foundation uses the following external service providers who help to optimize the service. Insofar as these service providers process data on behalf of The Apache Software Foundation, agreements have been concluded with them which set the European data protection standards as binding and in particular prohibit the use of the data for other purposes. If we commission third parties to process data on the basis of a so-called "contract processing contract", this is done on the basis of Art. 28 GDPR.
 
-
-### (a) **TODO: Outside email provider?**
-
-The Apache Software Foundation uses the XXX to send the newsletter. This service allows The Apache Software Foundation to manage a database of email contacts internally to communicate with users via email.
-
-**TODO: Ask marketing if we actually do things like this**
-The service manages data on which date and time emails were read, as well as when the user interacted with incoming emails, for example by clicking on links contained in the email. This is done by so-called web beacons, also called tracking pixels. These are small image files that allow an evaluation of user behavior. The user can object to this tracking at any time by unsubscribing from the newsletter. Such an evaluation is not possible even if the user has disabled the display of images in his email program by default. However, in this case, the newsletter can not be fully displayed and the user may not be able to fully use all features.
-
-### (b) Hetzner: Hosting 
+### (a) Hetzner: Hosting 
 
 The Apache Software Foundation uses the Hetzner Data Centers (Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany) for maintaining our servers. The servers are located in Finland and used for hosting databases and webcontent. 
 
-### (c) Amazon Web Services: DNS
+### (b) Amazon Web Services: DNS
 The Apache Software Foundation uses the Amazon Web Services ("AWS") service of Amazon Web Services, Inc. (P.O. Box 81226, Seattle, WA 98108-1226, USA), for hosting DNS records. As by the nature of DNS, the data is stored in several server accross the globe. AWS data centers are certified to ISO 27001, 27017 and 2018 as well as PCI DSS Level 1.
 
-### (d) LeaseWeb: Hosting 
+### (c) LeaseWeb: Hosting 
 
 The Apache Software Foundation uses the LeaseWeb Data Centers (Leaseweb USA, Inc., 9301 Innovation Drive / Suite 100, Manassas, VA 20110) for maintaining our servers. The servers are located in the USA and used for hosting databases and webcontent. LeaseWeb fully supports the GDPR. Details and privacy statements can be found [here](https://www.leaseweb.us/legal/personal-data-protection-acts).
 
