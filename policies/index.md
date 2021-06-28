@@ -28,5 +28,5 @@ layout: default
 
 ## Internal Policies
 
- - Website Policy
+ - [Website Policy](/policies/website-policy.html)
  - Mailing List Policy
