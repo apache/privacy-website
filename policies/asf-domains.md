@@ -21,9 +21,49 @@ layout: default
 
 # Domains controlled by The Apache Software Foundation
 
-**TODO: what other domains do we own?**
-
 The following list represents all domains currently owned, maintained and
 controlled by The Apache Software Foundation:
-
+ 
+ - any23.com
+ - any23.org
+ - apache-extras.org
  - apache.org
+ - apachecon.com
+ - apachecon.org
+ - apacheextras.org
+ - apachextras.org
+ - cloudstack.com
+ - cloudstack.org
+ - codehaus.org
+ - couchapp.com
+ - couchapp.org
+ - couchhack.org
+ - deltaspike.org
+ - feathercast.org
+ - freemarker.org
+ - gremlint.com
+ - groovy-lang.org
+ - ignite.run
+ - jclouds.com
+ - jclouds.net
+ - jclouds.org
+ - jspwiki.org
+ - libcloud.com
+ - libcloud.net
+ - libcloud.org
+ - modssl.com
+ - modssl.net
+ - myfaces.org
+ - netbeans.org
+ - ofbiz.org
+ - openoffice.org
+ - openwhisk.com
+ - openwhisk.net
+ - openwhisk.org
+ - projectgeode.org
+ - qi4j.org
+ - spamassassin.org
+ - subversion.com
+ - subversion.net
+ - subversion.org
+ - tinkerpop.com
