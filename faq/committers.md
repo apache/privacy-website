@@ -58,7 +58,7 @@ Google Analytics can only be used if:
  - you have a privacy policy clearly explaining what user data is collected on your web site
 
 Court decision around Google Analytics have changed various times
-in the past years and made it's use uncertain.
+in the past years and made its use uncertain.
 
 For this reason, ASF projects shall not use Google Analytics at all.
 
