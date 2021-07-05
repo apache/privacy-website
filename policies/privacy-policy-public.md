@@ -132,6 +132,24 @@ The Apache Software Foundation uses the Amazon Web Services ("AWS") service of A
 
 The Apache Software Foundation uses the LeaseWeb Data Centers (Leaseweb USA, Inc., 9301 Innovation Drive / Suite 100, Manassas, VA 20110) for maintaining our servers. The servers are located in the USA and used for hosting databases and webcontent. LeaseWeb fully supports the GDPR. Details and privacy statements can be found [here](https://www.leaseweb.us/legal/personal-data-protection-acts).
 
+### (d) Microsoft Azure: Hosting 
+
+The Apache Software Foundation uses the Microsoft Azure Data Centers (Microsoft Corporation, One Microsoft Way, Redmond, Washington 98052 USA) for maintaining our servers. The servers are located in the USA and used for hosting databases and webcontent. Microsoft fully supports the GDPR. Details and privacy statements can be found [here](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=67).
+
+### (d) Online.net (Scaleway): Hosting 
+
+The Apache Software Foundation uses the Scaleway Data Centers (Scaleway S.A.S., 8 rue de la Ville l’Evêque, 75008 Paris) for maintaining our servers. The servers are located in Europe and used for hosting databases and webcontent. Scaleway fully supports the GDPR. Details and privacy statements can be found [here](https://images-www.scaleway.com/wp-content/uploads/2021/05/05103001/DPA_EN_2020.pdf).
+
+
+### (e) GitHub: Source Code Hosting 
+
+The Apache Software Foundation uses the GitHub Services (GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, California 94107 USA) for serving and maintaining source code. GitHub fully supports the GDPR. Details and privacy statements can be found [here](https://github.com/enterprise-legal/github-addendum-to-microsoft-dpa).
+
+### (f) Fastly: CDN
+
+The Apache Software Foundation uses the GitHub Services (Fastly Inc., PO Box 78266, San Francisco, California, 94107, United States of America) for serving our services. Fastly fully supports the GDPR. Details and privacy statements can be found [here](https://www.fastly.com/data-processing).
+
+
 ## 5. Social Media Plug-ins
 
 We rely on our website on the basis of Art. 6 para. 1 sentence 1 lit. f GDPR social plug-ins from the social networks Facebook, Twitter and Instagram to make our company better known. The underlying commercial purpose is to be regarded as a legitimate interest within the meaning of the GDPR. Responsibility for the operation compliant with data protection is to be guaranteed by their respective providers. The integration of these plug-ins by us is done by means of the so-called two-click method to protect visitors to our website in the best possible way.
