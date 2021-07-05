@@ -71,9 +71,7 @@ We inform our visitors at regular intervals through newsletters about news and o
 
 The newsletter of our company can only be received if (1) the data subject has a valid e-mail address and (2) the person concerned registers for the newsletter. For legal reasons, a confirmation e-mail will be sent to the e-mail address entered by an affected person for the first time for newsletter mailing using the double-opt-in procedure. This confirmation email is used to check whether the owner of the e-mail address as the person concerned authorized the receipt of the newsletter.
 
-**TODO: Confirm with infra, if we actually store the IP address - we should**
-
-When subscribing to the newsletter, we also store the IP address of the computer system used by the person concerned at the time of registration, as well as the date and time of registration, as assigned by the Internet Service Provider (ISP). The collection of this data is necessary in order to understand the (possible) misuse of an affected person's e-mail address at a later date and therefore serves as legal safeguards for the controller.
+When subscribing to the newsletter, we store the date and time of registration and the email address. The collection of this data is necessary in order to understand the (possible) misuse of an affected person's e-mail address at a later date and therefore serves as legal safeguards for the controller.
 
 The personal data collected in the context of registering for the newsletter will be used exclusively to send our newsletter. 
 
@@ -91,9 +89,7 @@ Visitors may communicate with us through our mailing lists.
 
 The mailing list messages of our organisation can only be received if (1) the data subject has a valid e-mail address and (2) the person concerned registers for the mailing list. For legal reasons, a confirmation e-mail will be sent to the e-mail address entered by an affected person for the first time using the double-opt-in procedure. This confirmation email is used to check whether the owner of the e-mail address as the person concerned authorized the receipt of the mailing list messages.
 
-**TODO: Confirm with infra, if we actually store the IP address - we should**
-
-When subscribing to the newsletter, we also store the IP address of the computer system used by the person concerned at the time of registration, as well as the date and time of registration, as assigned by the Internet Service Provider (ISP). The collection of this data is necessary in order to understand the (possible) misuse of an affected person's e-mail address at a later date and therefore serves as legal safeguards for the controller.
+When subscribing to the mailing list, we store the date and time of registration and the email address. The collection of this data is necessary in order to understand the (possible) misuse of an affected person's e-mail address at a later date and therefore serves as legal safeguards for the controller. When a mailing list is archived, the log file will be deleted.
 
 The personal data collected in the context of registering for the mailing list will be used exclusively to send messages arriving at the mailing list. The personal data collected in the context of registering for a mailing list will be used exclusively to send messages arriving at our mailing list. 
 
