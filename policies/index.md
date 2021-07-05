@@ -19,30 +19,14 @@
 layout: default
 ---
 
-# ASF - Data Privacy
+# Available Policies
 
-Welcome to the Data Privacy website.
+## Privacy Policies 
 
-The Apache Software Foundation is committed to protect the privacy
-of their Members, Committers and Users.
+ - [Privacy Policy for public services](/policies/privacy-policy-public.html)
+ - Privacy Policy for committers
 
-## Privacy related questions
+## Internal Policies
 
-If you have questions related to privacy at
-The Apache Software Foundation which are not of confidential
-nature, feel free to ask at our (archived) mailing list:
-
-privacy@apache.org
-
-If you have confidential questions, please reach out to
-V.P., Data Privacy directly:
-
-vp-privacy@apache.org
-
-## Privacy complaints / Removal requests
-
-If you have complaints aligning with the GDPR or CCPA,
-please reach out to:
-
-vp-privacy@apache.org
-
+ - [Website Policy](/policies/website-policy.html)
+ - [Mailing List Policy](/policies/mailinglist-policy.html)
