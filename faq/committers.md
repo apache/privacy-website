@@ -60,6 +60,8 @@ Google Analytics can only be used if:
 Court decision around Google Analytics have changed various times
 in the past years and made it's use uncertain.
 
+For this reason, ASF projects shall not use Google Analytics at all.
+
 ### Can I use Google Fonts?
 
 You can use Google Fonts, but please host the fonts on ASF servers.
