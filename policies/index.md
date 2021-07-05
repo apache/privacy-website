@@ -23,10 +23,10 @@ layout: default
 
 ## Privacy Policies 
 
- - [Privacy Policy (GDPR) for public websites](/policies/privacy-policy-gdpr-public.html)
+ - [Privacy Policy for public services](/policies/privacy-policy-public.html)
  - Privacy Policy for committers
 
 ## Internal Policies
 
  - [Website Policy](/policies/website-policy.html)
- - Mailing List Policy
+ - [Mailing List Policy](/policies/mailinglist-policy.html)

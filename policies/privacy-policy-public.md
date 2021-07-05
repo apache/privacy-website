@@ -65,9 +65,9 @@ In addition, we use cookies and analysis services when visiting our website. Fur
 
 ### b) When registering for our newsletter and mailing lists
 
-If, pursuant to Art. 6 para. 1 sentence 1 lit. a GDPR have expressly consented, we use your e-mail address to regularly send you our newsletter or message arriving at our mailing lists. For the receipt of the newsletter or mailing list message the indication of an e-mail address is sufficient.
+If, pursuant to Art. 6 para. 1 sentence 1 lit. a GDPR have expressly consented, we use your e-mail address to regularly send you our newsletter. For the receipt of the newsletter the indication of an e-mail address is sufficient.
 
-We inform our visitors at regular intervals through newsletters about news and offers from The Apache Software Foundation. Furthermore, we communicate with interested person through our mailing lists.
+We inform our visitors at regular intervals through newsletters about news and offers from The Apache Software Foundation.
 
 The newsletter of our company can only be received if (1) the data subject has a valid e-mail address and (2) the person concerned registers for the newsletter. For legal reasons, a confirmation e-mail will be sent to the e-mail address entered by an affected person for the first time for newsletter mailing using the double-opt-in procedure. This confirmation email is used to check whether the owner of the e-mail address as the person concerned authorized the receipt of the newsletter.
 
@@ -75,17 +75,37 @@ The newsletter of our company can only be received if (1) the data subject has a
 
 When subscribing to the newsletter, we also store the IP address of the computer system used by the person concerned at the time of registration, as well as the date and time of registration, as assigned by the Internet Service Provider (ISP). The collection of this data is necessary in order to understand the (possible) misuse of an affected person's e-mail address at a later date and therefore serves as legal safeguards for the controller.
 
-The personal data collected in the context of registering for the newsletter will be used exclusively to send our newsletter. The personal data collected in the context of registering for a mailing list will be used exclusively to send messages arriving at our mailing list. 
+The personal data collected in the context of registering for the newsletter will be used exclusively to send our newsletter. 
 
-Subscribers may also be notified by e-mail if this is necessary for the operation of the newsletter/mailing list service or registration, as might be the case in the event of changes to the newsletter/mailing list or technical changes. 
+Subscribers may also be notified by e-mail if this is necessary for the operation of the newsletter service or registration, as might be the case in the event of changes to the newsletter/mailing list or technical changes. 
 
-There will be no transfer of the personal data collected as part of the newsletter service to third parties. 
+There will be no transfer of the personal data collected as part of the newsletter service to third parties.
 
-Almost all of our mailing lists are of public nature. This means, your name and email may be exposed to the public. Also, all information you send to a mailing list will be exposed to the public. Third parties may collect this information and process separately. The sender of messages is responsible for exposing their data to the public.
+Subscription to our newsletter may be terminated by the person concerned at any time. The consent to the storage of personal data that the data subject has given us for the newsletter dispatch can be revoked at any time. For the purpose of revoking the consent, instructions are given by the end of any email. 
 
-All content sent to mailing lists are archived indefinitely.
+### c) When registering for our mailing lists
 
-Subscription to our newsletter and mailing lists may be terminated by the person concerned at any time. The consent to the storage of personal data that the data subject has given us for the newsletter/mailing list dispatch can be revoked at any time. For the purpose of revoking the consent, instructions are given by the end of any email. 
+If, pursuant to Art. 6 para. 1 sentence 1 lit. a GDPR have expressly consented, we use your e-mail address to send you messages arriving at our mailing lists. For the receipt of the mailing list message the indication of an e-mail address is sufficient.
+
+Visitors may communicate with us through our mailing lists.
+
+The mailing list messages of our organisation can only be received if (1) the data subject has a valid e-mail address and (2) the person concerned registers for the mailing list. For legal reasons, a confirmation e-mail will be sent to the e-mail address entered by an affected person for the first time using the double-opt-in procedure. This confirmation email is used to check whether the owner of the e-mail address as the person concerned authorized the receipt of the mailing list messages.
+
+**TODO: Confirm with infra, if we actually store the IP address - we should**
+
+When subscribing to the newsletter, we also store the IP address of the computer system used by the person concerned at the time of registration, as well as the date and time of registration, as assigned by the Internet Service Provider (ISP). The collection of this data is necessary in order to understand the (possible) misuse of an affected person's e-mail address at a later date and therefore serves as legal safeguards for the controller.
+
+The personal data collected in the context of registering for the mailing list will be used exclusively to send messages arriving at the mailing list. The personal data collected in the context of registering for a mailing list will be used exclusively to send messages arriving at our mailing list. 
+
+Subscribers may also be notified by e-mail if this is necessary for the operation of the mailing list service or registration, as might be the case in the event of changes to the mailing list or technical changes. 
+
+We will not actively transfer any personal data as part of the mailing list service to third parties. However, almost all of our mailing lists are of public nature.
+
+This means, your name and email may be exposed to the public. Also, all information you send to a mailing list will be exposed to the public. Third parties may collect this information and process separately. The sender of messages is responsible for exposing their data to the public.
+
+All content sent to mailing lists are archived indefinitely. By using our mailing list service, you agree that any content is archived in that way.
+
+Subscription to our mailing lists may be terminated by the person concerned at any time. The consent to the storage of personal data that the data subject has given us for the mailing list dispatch can be revoked at any time. For the purpose of revoking the consent, instructions are given by the end of any email. 
 
 ## 3. Disclosure of data
 
