@@ -21,6 +21,30 @@ layout: default
 
 # Committers FAQ
 
+## General Privacy Questions
+
+### What, if we receive a data removal request?
+
+If you receive removal requests for mailing lists or of a generic kind,
+please forward this message to privacy@apache.org. If you feel the email
+is of a sensitive kind or did not arrive on a mailing list, 
+please forward this message to vp-privacy@apache.org.
+
+You can reply to the original message that you have forwarded this request,
+but don't reply with any further information (confirmation of deletions etc).
+
+In example:
+
+"Dear sender,
+
+we have forwarded your message to Apache Software Foundation privacy committee,
+which will handle your request. You can always reach out to VP Data Privacy (vp-privacy@apache.org)
+or to the comittee directly (privacy@apache.org) if you have further questions.
+
+Kind regards,"
+
+
+
 ## Project Websites
 
 ### Can I use Google Analytics?
