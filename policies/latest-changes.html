@@ -19,16 +19,14 @@
 layout: default
 ---
 
-# Available Policies
+<h2>Latest Changes</h2>
 
-Please read about our [latest changes here](/policies/latest-changes.html).
+<div>A detailled list of changes can be found in our <a href="https://github.com/apache/privacy-website/commits/main">GitHub source repository</a>.</div>
 
-## Privacy Policies 
-
- - [Privacy Policy for public services](/policies/privacy-policy-public.html)
- - Privacy Policy for committers
-
-## Internal Policies
-
- - [Website Policy](/policies/website-policy.html)
- - [Mailing List Policy](/policies/mailinglist-policy.html)
+<ul>
+    {% for change in site.data.latest-changes %}
+      <li>
+        {{change.date}}: {{change.short}}
+      </li>
+    {% endfor %}
+</ul>
