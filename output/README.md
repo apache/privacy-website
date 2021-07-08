@@ -1,6 +1,6 @@
 # The Apache Software Foundation - Privacy Website
 
-This is the source code for the website at privacy.apache.org.
+This is the source code for the website at [privacy.apache.org](https://privacy.apache.org).
 
 ## Develop this website
 
