@@ -25,8 +25,12 @@ Please read about our [latest changes here](/policies/latest-changes.html).
 
 ## Privacy Policies 
 
- - [Privacy Policy for public services](/policies/privacy-policy-public.html)
- - Privacy Policy for committers
+ - [Privacy Policy for public services](/policies/privacy-policy-public.html)  
+   *(no ASF account, generally using ASF services)*
+ - [Privacy Policy for contributors](/policies/privacy-policy-contributors.html)  
+   *(no ASF account, but signed an ICLA and/or send contributions to the ASF)*
+ - [Privacy Policy for committers](/policies/privacy-policy-committer.html)  
+   *(persons with ASF account and direct committer privileges)*
 
 ## Internal Policies
 
