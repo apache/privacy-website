@@ -27,7 +27,8 @@ ASF or hosted on ASF servers.
 ## 1) Analytics
 
 All analytics software embedded on a website needs to be confirmed by
-V.P. Data Privacy. Analytics software need to support the GDPR and a
+V.P. Data Privacy.
+Analytics software need to support the GDPR and a
 DPA need to be signed before it can be used. 
 
 Note: Google Analytics cannot be used on any ASF website because
@@ -46,8 +47,8 @@ If the cookie is not used for tracking, but used for managing a so called sessio
 
 ## 4) Using Assets from other Domains
 
-Assets (JS, Images, Fonts, CSS etc) from other domains cannot be loaded. Assets
-need to be hosted on ASF servers.
+Assets (JS, Images, Fonts, CSS etc) from other domains cannot be loaded.
+Assets need to be hosted on ASF servers.
 
 ## 5) (Google) Maps 
 
