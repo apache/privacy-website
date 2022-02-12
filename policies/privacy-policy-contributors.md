@@ -22,7 +22,12 @@ layout: default
 **---> DRAFT VERSION**
 
 
-This Privacy Policy clarifies the nature, scope and purpose of the processing of personal data (hereinafter referred to as "Data") within our online offering and the related websites, features and content, as well as external online presence, e.g. our social media profiles on. (collectively referred to as "online offer"). With regard to the terminology used, e.g. "Processing" or "Responsible", we refer to the definitions in Article 4 of the General Data Protection Regulation (GDPR).
+This Privacy Policy clarifies the nature, scope and purpose of the processing of personal data
+(hereinafter referred to as "Data") within our online offering and the related websites, features
+and content, as well as external online presence, e.g. our social media profiles on.
+(collectively referred to as "online offer").
+With regard to the terminology used, e.g. "Processing" or "Responsible",
+we refer to the definitions in Article 4 of the General Data Protection Regulation (GDPR).
 
 ## 1.  Name and contact details of the controller and the company data protection officer
 
