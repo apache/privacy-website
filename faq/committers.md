@@ -44,23 +44,30 @@ or to the comittee directly (privacy@apache.org) if you have further questions.
 Kind regards,"
 
 
-
 ## Project Websites
 
 ### Can I use Google Analytics?
 
 The Apache Software Foundation discourages the use of Google Analytics.
 
-You can only use Google Analytics if:
-
- - the user's IP address would be anonymized before transmitting data
- - the user approved the use of Google Analytics before it was loaded
- - you have a privacy policy clearly explaining what user data is collected on your web site
-
 Court decisions around Google Analytics have changed several times
-in the past years and made its use uncertain.
+in the past years and made its use uncertain. Several countries in the EU
+declared [Google Analytics cannot be used compliant to the GDPR](https://www.mglp.eu/en/is-the-usage-of-google-analytics-within-the-eu-illegal-from-now-on/).
 
-For this reason, ASF projects shall not use Google Analytics at all.
+To avoid legal risks, ASF projects shall not use Google Analytics at all.
+
+Instead, the Privacy team has established Matomo for the use of their projects.
+
+### Can I use Web Analytics (Matomo)?
+
+Yes: the Privacy Comittee has established a VM running Matomo, a GDPR compliant 
+web analytics software. You can ask for your site id and tracking code at privacy@apache.org
+
+Please do not install and run your own instances of Matomo.
+
+### Can I use another analytics/tracking etc software?
+
+Before using any further tracking software please ask on privacy@apache.org
 
 ### Can I use Google Fonts?
 
