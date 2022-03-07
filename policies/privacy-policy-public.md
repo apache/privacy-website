@@ -47,6 +47,8 @@ E-Mail: vp-privacy@apache.org
 
 ### a) When visiting the website
 
+#### Logfiles 
+
 When you visit our websites ([full list of websites](/policies/asf-domains.html)) or one of our subdomains,
 the browser on your device automatically sends information to the server of our website.
 This information is temporarily stored in a so-called log file.
@@ -73,6 +75,37 @@ Our legitimate interest follows from the data collection purposes listed above.
 In no case do we use the collected data for the purpose of drawing conclusions about you.
 In addition, we use cookies and analysis services when visiting our website.
 Further details can be found under no. 4 and 5 of this privacy policy.
+
+#### Matomo
+
+In addition to logfiles, somme of our websites use Matomo to understand what parts of the 
+website are important to our users, what features are most frequently read up on, 
+where users get lost in the documentation, etc. 
+This data allows us to better understand how users use the system, the website, 
+and the docs and where to focus improvements next.
+
+The collected information consists of the following:
+
+ - The IP address from which you access the website
+ - The type of browser and operating system you use to access our site
+ - The date and time you access our site
+ - The pages you visit
+ - If you click on any of the file download links on our website
+ - The addresses of pages from where you followed a link to our site
+ - The addresses of pages to where you go to from our site
+ - The search terms you use on the website
+
+This information is gathered and stored using the open source software Matomo. We don’t 
+use any cookies to collect this information. An IP address is anonymized by removing 
+the last two octets from the IP address. That means that if you’re IP is 192.168.100.50, 
+we store it as 192.168.0.0.
+
+Matomo is self-hosted on a virtual machine, provided by the Apache Software Foundation. 
+It can only be accessed by members of the Apache Privacy committee. The data can be 
+viewed by anyone by visiting https://matomo.privacy.apache.org/.
+
+Matomo respects any Do Not Track setting in your browser. You can also opt-out 
+from all Matomo tracking below.
 
 ### b) When registering for our newsletter and mailing lists
 
