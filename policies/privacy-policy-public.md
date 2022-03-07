@@ -107,6 +107,11 @@ viewed by anyone by visiting https://matomo.privacy.apache.org/.
 Matomo respects any Do Not Track setting in your browser. You can also opt-out 
 from all Matomo tracking below.
 
+<iframe
+style="border: 0; height: 200px; width: 600px;"
+src="https://matomo.privacy.apache.org/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=&fontSize=&fontFamily=Helvetica%2CArial%2Csans-serif"
+></iframe>
+
 ### b) When registering for our newsletter and mailing lists
 
 If, pursuant to Art. 6 para. 1 sentence 1 lit. a GDPR have expressly consented, 
