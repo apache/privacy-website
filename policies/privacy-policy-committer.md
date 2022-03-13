@@ -23,17 +23,15 @@ layout: default
 
 
 This Privacy Policy clarifies the nature, scope and purpose of the processing of personal data
-(hereinafter referred to as "Data") within our online offering and the related websites, features
-and content, as well as external online presence, e.g. our social media profiles on.
-(collectively referred to as "online offer").
-With regard to the terminology used, e.g. "Processing" or "Responsible",
-we refer to the definitions in Article 4 of the General Data Protection Regulation (GDPR).
+(hereinafter referred to as "Data") within the ASF's online offerings and related websites, features
+and content, as well as our external online presence, e.g. our social media profiles on Facebook, Twitter, YouTube, and other services
+(collectively referred to as "online presence").
+With regard to the terminology we use here, e.g. "Processing" or "Responsible",
+we refer to the definitions in Article 4 of the European Union's General Data Protection Regulation (GDPR).
 
 ## 1.  Name and contact details of the controller and the company data protection officer
 
-This privacy policy applies to data processing by:
-
-Responsible:    
+This privacy policy applies to data processing by:   
 
 The Apache Software Foundation  
 V. P. Data Privacy  
