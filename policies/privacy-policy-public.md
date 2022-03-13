@@ -30,7 +30,6 @@ With regard to the terminology used, e.g. "Processing" or "Responsible",
 we refer to the definitions in Article 4 of the General Data Protection Regulation (GDPR).
 
 ## 1.  Name and contact details of the controller and the company data protection officer
-
 This privacy policy applies to data processing by:
 
 Responsible:    
@@ -78,7 +77,7 @@ Further details can be found under no. 4 and 5 of this privacy policy.
 
 #### Matomo
 
-In addition to logfiles, somme of our websites use Matomo to understand what parts of the 
+In addition to logfiles, some of our websites use Matomo to understand what parts of the 
 website are important to our users, what features are most frequently read up on, 
 where users get lost in the documentation, etc. 
 This data allows us to better understand how users use the system, the website, 
