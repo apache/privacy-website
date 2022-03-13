@@ -30,7 +30,6 @@ With regard to the terminology we use, e.g. "Processing" or "Responsible",
 we refer to the definitions in Article 4 of the General Data Protection Regulation (GDPR).
 
 ## 1.  Name and contact details of the controller and the company data protection officer
-
 This privacy policy applies to data processing by:
 
 Responsible:    
