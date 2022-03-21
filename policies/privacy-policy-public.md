@@ -77,7 +77,7 @@ Further details can be found under no. 4 and 5 of this privacy policy.
 
 #### Matomo
 
-In addition to log files, somme of our websites use Matomo to understand what parts of the 
+In addition to log files, some of our websites use Matomo to understand what parts of the 
 website are important to our users, what features are most frequently accessed, 
 where users get lost in the documentation, etc. 
 This data allows us to better understand how users use the system, the website, 
