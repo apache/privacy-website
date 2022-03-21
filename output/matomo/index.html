@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        
+        <link rel="alternate" type="application/rss+xml" title="Apache Software Foundation - Data Privacy RSS" href="/rss.xml" />
+        <link rel="stylesheet" href="/css/main.css">
+        <title></title>
+    </head>
+    <body>
+        <header>
+    <div class="header-logo"><img src="/images/asf-logo.png"/>
+        <div class="header-text">ASF Data Privacy</div>
+    </div>
+
+    <nav>
+    <label for="show-menu" class="show-menu">Show Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/policies">Policies</a></li>
+            <li>
+                <a href="#">Privacy FAQ &#9660;</a>
+                <ul class="hidden">
+                    <li><a href="/faq/committers.html">Committers' Privacy FAQ</a></li>
+                    <li><a href="/faq/infrastructure.html">Infrastructure Privacy FAQ</a></li>
+                </ul>
+            </li>
+            <li><a href="/matomo">Matomo</a></li>
+            <li><a href="http://www.apache.org/foundation/">About the ASF</a></li>
+        </ul>
+    </nav>
+</header>
+
+        <main>
+            <h1 id="matomo">Matomo</h1>
+
+<p>Some of the ASF websites use Matomo to understand what parts of the website are important to our users, 
+what features are most frequently read up on, where users get lost in the documentation, etc. 
+This data allows us to better understand how users use the system, the website, and the docs and where to focus improvements next.</p>
+
+<p>You can look at Matomo here:
+<a href="https://matomo.privacy.apache.org/index.php?module=MultiSites&amp;action=index&amp;idSite=1&amp;period=day&amp;date=yesterday">https://matomo.privacy.apache.org/</a></p>
+
+<p>If you need to learn more about your users, you can ask for a site ID and tracking code at privacy@apache.org and 
+join projects such as Apache Flink, Apache Shiro and Apache Maven. We enforce cookieless measurements.</p>
+
+<p>A basis tracking code for Matomo looks like this (where <code class="language-plaintext highlighter-rouge">&lt;YourSiteId&gt;</code> is replaced by the provided site ID):</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c">&lt;!--</span> <span class="nx">Matomo</span> <span class="o">--&gt;</span>
+    <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+      <span class="kd">var</span> <span class="nx">_paq</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">_paq</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">_paq</span> <span class="o">||</span> <span class="p">[];</span>
+      <span class="cm">/* tracker methods like "setCustomDimension" should be called before "trackPageView" */</span>
+      <span class="cm">/* We explicitly disable cookie tracking to avoid privacy issues */</span>
+      <span class="nx">_paq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="dl">'</span><span class="s1">disableCookies</span><span class="dl">'</span><span class="p">]);</span>
+      <span class="cm">/* Measure a visit to flink.apache.org and nightlies.apache.org/flink as the same visit */</span>
+      <span class="nx">_paq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="dl">"</span><span class="s2">setDomains</span><span class="dl">"</span><span class="p">,</span> <span class="p">[</span><span class="dl">"</span><span class="s2">*.flink.apache.org</span><span class="dl">"</span><span class="p">,</span><span class="dl">"</span><span class="s2">*.nightlies.apache.org/flink</span><span class="dl">"</span><span class="p">]]);</span>
+      <span class="nx">_paq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="dl">'</span><span class="s1">trackPageView</span><span class="dl">'</span><span class="p">]);</span>
+      <span class="nx">_paq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="dl">'</span><span class="s1">enableLinkTracking</span><span class="dl">'</span><span class="p">]);</span>
+      <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">u</span><span class="o">=</span><span class="dl">"</span><span class="s2">//matomo.privacy.apache.org/</span><span class="dl">"</span><span class="p">;</span>
+        <span class="nx">_paq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="dl">'</span><span class="s1">setTrackerUrl</span><span class="dl">'</span><span class="p">,</span> <span class="nx">u</span><span class="o">+</span><span class="dl">'</span><span class="s1">matomo.php</span><span class="dl">'</span><span class="p">]);</span>
+        <span class="nx">_paq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="dl">'</span><span class="s1">setSiteId</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">&lt;YourSiteId&gt;</span><span class="dl">'</span><span class="p">]);</span>
+        <span class="kd">var</span> <span class="nx">d</span><span class="o">=</span><span class="nb">document</span><span class="p">,</span> <span class="nx">g</span><span class="o">=</span><span class="nx">d</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">script</span><span class="dl">'</span><span class="p">),</span> <span class="nx">s</span><span class="o">=</span><span class="nx">d</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="dl">'</span><span class="s1">script</span><span class="dl">'</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span>
+        <span class="nx">g</span><span class="p">.</span><span class="k">async</span><span class="o">=</span><span class="kc">true</span><span class="p">;</span> <span class="nx">g</span><span class="p">.</span><span class="nx">src</span><span class="o">=</span><span class="nx">u</span><span class="o">+</span><span class="dl">'</span><span class="s1">matomo.js</span><span class="dl">'</span><span class="p">;</span> <span class="nx">s</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">insertBefore</span><span class="p">(</span><span class="nx">g</span><span class="p">,</span><span class="nx">s</span><span class="p">);</span>
+      <span class="p">})();</span>
+    <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span>    <span class="c">&lt;!--</span> <span class="nx">End</span> <span class="nx">Matomo</span> <span class="nx">Code</span> <span class="o">--&gt;</span>
+</code></pre></div></div>
+
+<p>Details on collected information can be found in the <a href="/policies/privacy-policy-public.html">Privacy Policy for public services</a>.</p>
+
+<h2 id="matomo-details">Matomo Details</h2>
+
+<ul>
+  <li><a href="/matomo/upgrade-matomo.html">Perform a Matomo upgrade</a><br />
+<em>(members of the ASF Privacy Committee)</em></li>
+  <li><a href="https://matomo.org/help/">Matomo Help Center</a>
+<em>(Public)</em></li>
+</ul>
+
+        </main>
+        <footer>
+    © 2021 The Apache Software Foundation under the terms of the Apache License 2.0.
+
+    Apache, the Apache feather logo, and the Apache logo are either registered trademarks or 
+    trademarks of The Apache Software Foundation in the United States and other countries.
+</footer>
+
+    </body>
+</html>

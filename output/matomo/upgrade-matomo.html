@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        
+        <link rel="alternate" type="application/rss+xml" title="Apache Software Foundation - Data Privacy RSS" href="/rss.xml" />
+        <link rel="stylesheet" href="/css/main.css">
+        <title></title>
+    </head>
+    <body>
+        <header>
+    <div class="header-logo"><img src="/images/asf-logo.png"/>
+        <div class="header-text">ASF Data Privacy</div>
+    </div>
+
+    <nav>
+    <label for="show-menu" class="show-menu">Show Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/policies">Policies</a></li>
+            <li>
+                <a href="#">Privacy FAQ &#9660;</a>
+                <ul class="hidden">
+                    <li><a href="/faq/committers.html">Committers' Privacy FAQ</a></li>
+                    <li><a href="/faq/infrastructure.html">Infrastructure Privacy FAQ</a></li>
+                </ul>
+            </li>
+            <li><a href="/matomo">Matomo</a></li>
+            <li><a href="http://www.apache.org/foundation/">About the ASF</a></li>
+        </ul>
+    </nav>
+</header>
+
+        <main>
+            <h1 id="upgrade-matomo">Upgrade Matomo</h1>
+
+<ol>
+  <li>Log in to the Matomo VM via SSH</li>
+  <li>Edit (as root) the file <code class="language-plaintext highlighter-rouge">/var/www/html/config/config.ini.php</code> and add the lines below to temporarily 
+disable Matomo tracking and disable the Matomo user interface and API.
+This will cause measuring requests to not be processed and tracked by Matomo, to speed up the upgrade:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Tracker]
+record_statistics = 0
+   
+[General]
+maintenance_mode = 1
+</code></pre></div>    </div>
+  </li>
+  <li>Run the following commands to make a backup of the config file, download the latest version of Matomo:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cp /var/www/html/config/config.ini.php /tmp/config.ini.php # Copy the original config file
+wget https://builds.matomo.org/matomo.zip -P /tmp # Download the latest Matomo version
+unzip -o /tmp/matomo.zip -d /tmp/matomo # Unzip the Matomo archive
+sudo cp -r /tmp/matomo/matomo/* /var/www/html/ # To copy the unzipped archive to the Matomo installation directory
+</code></pre></div>    </div>
+  </li>
+  <li>Run the following command to perform any database upgrade: <code class="language-plaintext highlighter-rouge">sudo /var/www/html/console core:update</code></li>
+  <li>Remove the added values from step 2.</li>
+  <li>Perform the <a href="https://matomo.privacy.apache.org/index.php?date=yesterday&amp;module=Installation&amp;format=html&amp;action=systemCheckPage&amp;idSite=1&amp;period=day&amp;segment=&amp;widget=&amp;showtitle=1&amp;random=8644">Matomo system check</a> to determine if there’s any issue that should be fixed</li>
+  <li>Clean-up the results from step 3 by executing:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rm /tmp/matomo.zip # delete the archive and read below the next step
+rm /tmp/config.ini.php # delete the backup config file
+rm -r /tmp/matomo
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+        </main>
+        <footer>
+    © 2021 The Apache Software Foundation under the terms of the Apache License 2.0.
+
+    Apache, the Apache feather logo, and the Apache logo are either registered trademarks or 
+    trademarks of The Apache Software Foundation in the United States and other countries.
+</footer>
+
+    </body>
+</html>
