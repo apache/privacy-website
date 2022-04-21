@@ -19,9 +19,6 @@
 layout: default
 ---
 
-**---> DRAFT VERSION**
-
-
 This Privacy Policy clarifies the nature, scope and purpose of the processing of personal data
 (hereinafter referred to as "Data") within our online offering and the related websites, features
 and content, as well as external online presence, e.g. our social media profiles on Twitter, Facebook, YouTube and similar sites
@@ -286,7 +283,7 @@ Our security measures are continuously improved in line with technological devel
 
 ## 10. Updating and changing this privacy policy
 
-This privacy policy is currently valid and is valid as of **TODO: VALIDITY DATE**.
+This privacy policy is currently valid and is valid as of 2022-04-21.
 
 As a result of the further development of our website and offers thereof, or due to changed legal or official requirements, it may be necessary to change this privacy policy.
 The current privacy policy can be viewed and printed by you at any time on the website at https://privacy.apache.org/policies/privacy-policy-public.html.
