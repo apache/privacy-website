@@ -98,14 +98,14 @@ we store it as 192.168.0.0.
 
 Matomo is self-hosted on a virtual machine provided by the Apache Software Foundation. 
 It can only be accessed by members of the Apache Privacy committee. The data can be 
-viewed by anyone by visiting https://matomo.privacy.apache.org/.
+viewed by anyone by visiting https://analytics.apache.org/.
 
 Matomo respects any Do Not Track setting in your browser. You can also opt-out 
 from all Matomo tracking below.
 
 <iframe
 style="border: 0; height: 200px; width: 600px;"
-src="https://matomo.privacy.apache.org/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=&fontSize=&fontFamily=Helvetica%2CArial%2Csans-serif"
+src="https://analytics.apache.org/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=&fontSize=&fontFamily=Helvetica%2CArial%2Csans-serif"
 ></iframe>
 
 ### b) When registering for our newsletter and mailing lists
