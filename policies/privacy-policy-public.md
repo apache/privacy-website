@@ -45,7 +45,7 @@ E-Mail: vp-privacy@apache.org
 
 #### Log files 
 
-When you visit our websites ([full list of websites](/policies/asf-domains.html)) or one of our subdomains,
+When you visit our websites ([full list of domains](/policies/asf-domains.html)) or one of our subdomains,
 the browser on your device automatically sends information to the server of our website.
 This information is temporarily stored in a log file.
 The following information is be collected without your intervention and stored until automated deletion:
