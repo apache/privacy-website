@@ -69,6 +69,13 @@ Please do not install and run your own instances of Matomo.
 
 Before using any further tracking software please ask on privacy@apache.org
 
+### Can I use hosted versions of jQuery, images or anything else provided by servers we don't own?
+
+Please don't embed any content from servers which we don't own. Every server or CDN you use will need
+to be listed in our privacy policy. To avoid constant extensions to our privacy policy, please
+download the content and make it available from our own hosts.
+As of now, using third party CDNs does not even impose [performance benefits](https://wicki.io/posts/2020-11-goodbye-google-fonts/)
+
 ### Can I use Google Fonts?
 
 You can use Google Fonts, but please host the fonts on ASF servers.
