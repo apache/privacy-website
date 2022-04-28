@@ -222,7 +222,7 @@ Details and privacy statements can be found [here](https://images-www.scaleway.c
 
 The Apache Software Foundation uses the GitHub Services (GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, California 94107 USA) for serving and maintaining source code.
 GitHub fully supports the GDPR.
-Details and privacy statements can be found [here](https://github.com/enterprise-legal/github-addendum-to-microsoft-dpa).
+Details and privacy statements can be found [here](https://docs.github.com/en/site-policy/privacy-policies).
 
 ### (f) Fastly: CDN
 
