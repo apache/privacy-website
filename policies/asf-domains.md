@@ -67,3 +67,7 @@ controlled by The Apache Software Foundation:
  - subversion.net
  - subversion.org
  - tinkerpop.com
+
+Domains, not controlled by the ASF, but serving content from ASF hardware:
+
+ - svn.haxx.se
