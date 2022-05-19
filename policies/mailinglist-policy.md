@@ -30,7 +30,7 @@ Messages sent to public mailing lists will redistributed to many mirrors and can
 Participants of mailing lists or message board are aware that their messages are seen public
 and can be copied by 3rd parties. Due to the complexity of message removal/adjustment and
 the unsatisfying result, we consider message and data removals unfounded 
-and excessive and refuse to take action according to GDPR, Article 12 Item 5.
+and excessive and refuse to take action according to [GDPR, Article 12 Item 5](https://gdpr-text.com/read/article-12/#para_gdpr-a-12_5-1).
 
 ## 2) Subscription Information
 
