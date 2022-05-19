@@ -40,74 +40,56 @@
 <p>This policy describes restrictions for mailing lists managed by the
 ASF or hosted on ASF servers.</p>
 
-<h2 id="1-subscription-information">1) Subscription Information</h2>
+<h2 id="1-messagedata-removal-from-mailing-lists">1) Message/Data removal from Mailing lists</h2>
+
+<p>Messages sent to public mailing lists will redistributed to many mirrors and cannot be deleted.
+Participants of mailing lists or message board are aware that their messages are seen public
+and can be copied by 3rd parties. Due to the complexity of message removal/adjustment and
+the unsatisfying result, we consider message and data removals unfounded 
+and excessive and refuse to take action according to GDPR, Article 12 Item 5.</p>
+
+<h2 id="2-subscription-information">2) Subscription Information</h2>
 
 <p>When a user subscribes to a new mailing list, the following text needs to be included 
 when asking for subscription confirmation:</p>
 
-<p>“By subscribing to this mailing list you agree to the privacy policies of 
-The Apache Software Foundation. The privacy policies can be found at:
-https://privacy.apache.org/policies/</p>
+<p>===TEXT STARTS===</p>
 
-<p>The subscriber is fully aware that message may be posted in public and distributed by 3rd parties.
-The subscriber is also aware, that private message lists will also be read by multiple people with appropriate access rights,
-for example - but not exclusively - Foundation Members, Board Members, Officers etc.</p>
+<p>Important - please read this notice carefully before using this mailing list:</p>
 
-<p>The subscriber is also fully aware that messages may not be (fully) removed from our archives if there is no strong reason to do so;
-also, we may decide to only remove parts of a message.”</p>
+<p>You have subscribed to a public mailing list. This mailing list serves the public good. 
+All messages are archived indefinitely and are visible to all subscribers to the list 
+and to anyone who searches the archives.</p>
 
-<h2 id="2-email-distribution">2) Email distribution</h2>
+<p>Third parties not connected to or controlled by The Apache Software Foundation may copy, store, 
+and share the contents of this mailing list.</p>
+
+<p>Do not send to this list any personally identifiable information (PII) 
+like passwords, addresses, or IDs; sensitive data; or statements, declarations, or comments 
+which you would not wish to see connected to your name in public. It is not possible to 
+remove messages that you have posted to the list.</p>
+
+<p>Be aware that your email client will send, with any message you post to this list, 
+your name (which may include your signature) and your email address.</p>
+
+<p>We comply with the European Union’s General Data Protection Regulation (GDPR). 
+Under the terms of GDPR, we consider removal of messages on public mailing lists excessive 
+and will refuse to act on removal requests.</p>
+
+<p>If you have questions, please contact our Privacy Committee:
+https://privacy.apache.org/</p>
+
+<p>===TEXT ENDS===</p>
+
+<p>Currently implemented as Jira ticket:
+https://issues.apache.org/jira/browse/INFRA-23011?filter=-2</p>
+
+<h2 id="3-email-distribution">3) Email distribution</h2>
 
 <p>Every email sent from our mailing list servers shall have a footer message with the text:
 “You receive this message because you are subscribed to &lt;listname&gt;. 
 You can unsubscribe any time by sending a blank message to: &lt;listname&gt;-unsubscribe@&lt;subdomain&gt;.apache.org</p>
 
-<h2 id="3-messagedata-removal">3) Message/Data removal</h2>
-
-<p>Messages are only edited on rare occassions and when necessary from a privacy perspective.</p>
-
-<p>Messages need to be edited or removed, when personal information according to the GDPR or CCPA is disclosed and need to be removed.</p>
-
-<p>This includes all data which makes it possible to identify a person. For example:</p>
-
-<ul>
-  <li>full name</li>
-  <li>email address</li>
-  <li>phone number</li>
-  <li>address, city, country of origin</li>
-  <li>ethnicity</li>
-  <li>medical conditions</li>
-  <li>etc</li>
-</ul>
-
-<p>Messages are not considered for removal when data is not related to a person:</p>
-
-<ul>
-  <li>login names (if it is not a real name)</li>
-  <li>ssh passwords</li>
-  <li>production IP addresses</li>
-  <li>machine names</li>
-  <li>URLs</li>
-</ul>
-
-<p>Please note that any edit to our archives does not automatically edit the archives of 3rd party services which mirror our archives.
-A requestor will need to contact mirror services themselves.</p>
-
-<h2 id="4-procedures-for-archive-modifications">4) Procedures for archive modifications</h2>
-
-<p>A removal request need to be sent to privacy@apache.org (private, but archived list) or directly sent to vp-privacy@apache.org.
-Please note that you request will be recorded for future reference.</p>
-
-<p>Please include the following:</p>
-
-<ul>
-  <li>country of residence, to apply the right data privacy laws</li>
-  <li>the list of messages to be removed or edited</li>
-</ul>
-
-<p>After submitting the request, VP Data Privacy will confirm its receipt and discuss appropriate solutions with the Infrastructure team.</p>
-
-<p>Please note: The Apache Software Foundation is a volunteer organization; we do our best to handle each request as quickly as we can.</p>
 
         </main>
         <footer>
