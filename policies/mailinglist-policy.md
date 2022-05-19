@@ -67,11 +67,3 @@ https://privacy.apache.org/
 ===TEXT ENDS===
 
 Currently implemented as [Jira ticket](https://issues.apache.org/jira/browse/INFRA-23011?filter=-2)
-
-## 3) Email distribution
-
-Every email sent from our mailing list servers must have a footer message with the text:
-"You receive this message because you are subscribed to &lt;listname&gt;. 
-You can unsubscribe any time by sending a blank message to: &lt;listname&gt;-unsubscribe@&lt;subdomain&gt;.apache.org
-
-
