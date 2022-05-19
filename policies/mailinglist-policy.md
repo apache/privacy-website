@@ -70,7 +70,7 @@ Currently implemented as [Jira ticket](https://issues.apache.org/jira/browse/INF
 
 ## 3) Email distribution
 
-Every email sent from our mailing list servers shall have a footer message with the text:
+Every email sent from our mailing list servers must have a footer message with the text:
 "You receive this message because you are subscribed to &lt;listname&gt;. 
 You can unsubscribe any time by sending a blank message to: &lt;listname&gt;-unsubscribe@&lt;subdomain&gt;.apache.org
 
