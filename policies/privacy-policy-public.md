@@ -19,6 +19,8 @@
 layout: default
 ---
 
+** This privacy policy is currently being adopted and may not yet be fully implemented at all websites **
+
 This Privacy Policy clarifies the nature, scope and purpose of the processing of personal data
 (hereinafter referred to as "Data") within our online offering and the related websites, features
 and content, as well as external online presence, e.g. our social media profiles on Twitter, Facebook, YouTube and similar sites
