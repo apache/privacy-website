@@ -66,8 +66,7 @@ https://privacy.apache.org/
 
 ===TEXT ENDS===
 
-Currently implemented as Jira ticket:
-https://issues.apache.org/jira/browse/INFRA-23011?filter=-2
+Currently implemented as [Jira ticket](https://issues.apache.org/jira/browse/INFRA-23011?filter=-2)
 
 ## 3) Email distribution
 
