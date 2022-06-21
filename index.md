@@ -46,3 +46,11 @@ please reach out to:
 
 vp-privacy@apache.org
 
+## Want to help? Spot an error?
+
+The preferred way to submit improvements is by GitHub PR:
+[Privacy@Github](https://github.com/apache/privacy-website)
+
+If you don't want to submit PRs, you can also send your message
+to either privacy@apache.org (many people read this list) or
+to VP Privacy personally (vp-privacy@apache.org).
