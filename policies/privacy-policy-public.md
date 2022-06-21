@@ -50,7 +50,7 @@ E-Mail: vp-privacy@apache.org
 When you visit our websites ([full list of domains](/policies/asf-domains.html)) or one of our subdomains,
 the browser on your device automatically sends information to the server of our website.
 This information is temporarily stored in a log file.
-The following information is be collected without your intervention and stored until automated deletion:
+The following information is being collected without your intervention and stored until automated deletion:
 
  - The IP address of the requesting computer
  - The date and time of access
@@ -119,7 +119,7 @@ For the receipt of the newsletter the indication of an e-mail address is suffici
 We inform our visitors at regular intervals through newsletters about news and offers from The Apache Software Foundation.
 
 The newsletter of our Foundation can only be received if (1) the data subject has a valid e-mail address and (2) the person concerned registers for the newsletter.
-For legal reasons, a confirmation e-mail will be sent to the e-mail address entered by an affected person befoer the first time of sending the newsletter, using the double-opt-in procedure.
+For legal reasons, a confirmation e-mail will be sent to the e-mail address entered by an affected person before the first time of sending the newsletter, using the double-opt-in procedure.
 This confirmation email is used to check whether the owner of the e-mail address is the person who authorized the receipt of the newsletter.
 
 When you subscribe to the newsletter, we store the date and time of registration and the email address.
