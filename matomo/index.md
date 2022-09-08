@@ -41,11 +41,10 @@ A basis tracking code for Matomo looks like this (where `<YourSiteId>` is replac
       /* We explicitly disable cookie tracking to avoid privacy issues */
       _paq.push(['disableCookies']);
       /* Measure a visit to flink.apache.org and nightlies.apache.org/flink as the same visit */
-      _paq.push(["setDomains", ["*.flink.apache.org","*.nightlies.apache.org/flink"]]);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
-        var u="//matomo.privacy.apache.org/";
+        var u="//analytics.apache.org/";
         _paq.push(['setTrackerUrl', u+'matomo.php']);
         _paq.push(['setSiteId', '<YourSiteId>']);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
