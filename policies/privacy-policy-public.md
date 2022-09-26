@@ -61,8 +61,8 @@ The following information is being collected without your intervention and store
 
 The data mentioned are processed by us for the following purposes:
 
- - Ensuring a smooth connection of the website
- - Ensuring comfortable use of our website
+ - Ensuring connectivity of our website
+ - Ensuring a use of our website, of which we think is comfortable for you
  - Evaluation of system security and stability
  - Other administrative purposes
 
