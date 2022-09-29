@@ -44,25 +44,27 @@ E-Mail: vp-privacy@apache.org
 ##  2. Collection and storage of personal data and the nature and purpose of their use
 
 We need to collect some of your information. This is necessary to 
-make sure contributions to our codebases or other crucial parts of the ASF 
-have a clean IP.
+make sure contributions to our codebases and other crucial parts of the ASF 
+have well-documented Intellectual Property provenance.
 
 ### 1. Information submitted voluntarily on the ICLA form
+
+NOTE: To protect your privacy, you should not copy anyone when submitting your document
+to the secretary.
 
 #### Full name
 
 This is your name that you use to sign legal documents. The name is 
 visible to the secretary team, the system administrators, and you. 
 It is not shared with others. It is used as the legal basis for the ICLA contract.
-The full name will be made to the public, except you choose a public name.
+The full name will be made known to the public unless you choose a public name.
 
 #### Public name
 
 This is your name as known to the public. If you are voted as a committer, this name will 
-be shown along with your Apache id at https://people.apache.org/committer-index.html
-You can choose the public freely and keep your identity anonymous to the public.
+be shown along with your Apache id at [Committer List](https://people.apache.org/committer-index.html).
 
-The public name is also used for internal toolings without any restriction.
+The public name is also used for internal toolings without any restrictions.
 
 #### Postal Address
 
@@ -74,31 +76,34 @@ and system administrators.
 
 This is the country of your personal residence. It is used only to disambiguate 
 your document from others which may have the same or similar name. It is visible 
-to the secretary team, system administrators, and you.
+to the secretary team and system administrators.
 
 #### Email
 
 This is the forwarding address for mail received at your ASF email address. 
-This E-Mail adress can be changed later at your own will. However, it will remain on our documents.
+This E-Mail adress can be changed later as you wish. However, it will remain in our documents.
+It is visible to the secretary team and system administrators.
 
 #### Preferred Apache ID
 
 This may be used to create your Apache account. It is visible to the public 
-once your account is created (see Public Name above).
+once your account is created (see Public Name above). E-mail sent to <id>@apache.org
+will be forwarded to your current E-Mail address.
 
 Please note: it is very difficult, if not impossible, to change the Apache ID. If you need
 privacy, please don't use your real name or any other personal data for your ID.
 
 #### Notify project
 
-This may be used to create your Apache account. The project you might join first
-will be notified.
+This may be used to create your Apache account. The project you list first
+will be notified that your document was accepted or rejected but not its contents.
 
 ### 2. Information submitted voluntarily by sending email to a public Apache email list
 
 The entire email, including your "from" address, the subject, and body of the email 
 are archived and are publicly visible and searchable. Additionally, copies of your email 
-are made available to a number of publicly archived and publicly searchable internet sites. 
+are made available to a number of publicly archived and publicly searchable internet sites.
+This makes it impossible to delete emails even if they contain sensitive information.
 You should never include any personal information in emails sent to public Apache email lists.
 
 Please also see: [Mailing List Policy](/policies/mailinglist-policy.html)
