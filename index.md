@@ -46,7 +46,7 @@ please reach out to:
 
 vp-privacy@apache.org
 
-Please note, we are rejecting requests send in buld by several tools.
+Please note, we are rejecting requests sent in bulk by several tools.
 Please see our [community FAQ](/faq/community.html#can-i-get-my-data-removed-using-3rd-party-services)
 
 ## Want to help? Spot an error?
