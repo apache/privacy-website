@@ -45,6 +45,6 @@ our software, these companies do not have any relationship with the Apache Softw
 ### With whom do I need to sign a DPA when I use an ASF product like a webserver?
 
 Please contact your lawyer or data privacy officer for these kind of questions;
-without giving any legal advicse, usually your web hosting agency or
+without giving any legal advice, usually your web hosting agency or
 your infrastructure provider will use our products to provide you with services
 and in many cases you may have to sign a DPA with them. 
