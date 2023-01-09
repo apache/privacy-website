@@ -57,3 +57,8 @@ The preferred way to submit improvements is by GitHub PR:
 If you don't want to submit PRs, you can also send your message
 to either privacy@apache.org (many people read this list) or
 to VP Privacy personally (vp-privacy@apache.org).
+
+## Security issues with this website
+
+We receive numerous requests related to security issues. If you think you found a security issue,
+please report them directly to security@apache.org
