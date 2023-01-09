@@ -58,6 +58,10 @@ If you don't want to submit PRs, you can also send your message
 to either privacy@apache.org (many people read this list) or
 to VP Privacy personally (vp-privacy@apache.org).
 
+## Do I need a DPA when I run your software?
+
+Short answer: no. Please see: [software users FAQ](/faq/software-users.html)
+
 ## Security issues with this website
 
 We receive numerous requests related to security issues. If you think you found a security issue,
