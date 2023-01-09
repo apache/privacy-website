@@ -30,11 +30,11 @@ This FAQ addresses users of our software in general.
 No. As we are not controlling any of your data, it is not necessary
 to sign a DPA with us when you use our software.
 
-### Do you collect our users data when we use your software?
+### Do you collect our users' data when we use your software?
 
 No. The Apache Software Foundation does provide software for the public good;
-it does not include any kind of software which you reveil any of your data to us.
-We do not process, reuse or sell any of your users data.
+it does not include any kind of software which you reveal any of your data to us.
+We do not process, reuse or sell any of your users' data.
 
 ### Do you provide SaaS (or similar) services?
 
