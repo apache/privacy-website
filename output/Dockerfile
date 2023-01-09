@@ -57,7 +57,6 @@ RUN gem install bundler:1.17.3
 ENV BUNDLE_CLEAN=false
 
 COPY Gemfile .
-COPY Gemfile.lock .
 
 RUN bundle config clean
 RUN bundle install
