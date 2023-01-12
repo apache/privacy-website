@@ -62,7 +62,8 @@ to VP Privacy personally (vp-privacy@apache.org).
 
 Short answer: no. Please see: [software users FAQ](/faq/software-users.html)
 
-## Security issues with this website
+## Security issues
 
-We receive numerous requests related to security issues. If you think you found a security issue,
-please report them directly to security@apache.org
+If you think you found a security issue, check out our
+[Security page](https://apache.org/security) for information
+on how to report this.
