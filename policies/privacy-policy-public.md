@@ -233,6 +233,10 @@ The Apache Software Foundation uses Scarf (Scarf Systems Inc., 548 Market St, PM
 how our software is downloaded, adopted and used. Scarf fully supports the GDPR. 
 Details and privacy statements can be found [here](https://about.scarf.sh/privacy-policy).
 
+### (h) DinoSource ApS: PonyMail
+
+The Apache Software Foundation uses Pony Mail (DinoSource ApS, Vangedevej 223A, DK-2870 Dyssegard, Denmark) to display mailing list content to the web. DinoSource ApS fully supports the GDPR and DPA is on file.
+
 ## 5. Social Media Plug-ins
 
 We rely on our website on the basis of Art. 6 para. 1 sentence 1 lit. f GDPR social plug-ins from the social networks Facebook, Twitter and Instagram to make our company better known.
