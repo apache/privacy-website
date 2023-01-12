@@ -34,6 +34,8 @@ DPA (Data Privacy Agreement) needs to be signed before it can be used.
 Note: Google Analytics cannot be used on any ASF website because
 of the Schrems-II data privacy verdict.
 
+If you need analytics, please use our self-hosted [Matomo](/matomo) instance.
+
 ## 2) YouTube
 
 YouTube content can be embedded only when the creator has given consent before loading
