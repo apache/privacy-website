@@ -227,6 +227,11 @@ The Apache Software Foundation uses Fastly (Fastly Inc., PO Box 78266, San Franc
 Fastly fully supports the GDPR.
 Details and privacy statements can be found [here](https://www.fastly.com/data-processing).
 
+### (g) Scarf: Download analytics.
+
+The Apache Software Foundation uses Scarf (Scarf Systems Inc., 548 Market St, PMB 17568, San Francisco, CA 94104 USA) to understand
+how our software is downloaded, adopted and used. Scarf fully supports the GDPR. 
+Details and privacy statements can be found [here](https://about.scarf.sh/privacy-policy).
 
 ## 5. Social Media Plug-ins
 

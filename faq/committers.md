@@ -65,6 +65,11 @@ web analytics software. You can ask for your site id and tracking code at privac
 
 Please do not install and run your own instances of Matomo.
 
+### Can I use Scarf to analyse our downloads?
+
+Yes: Scarf has signed a DPA with us, fully supports the GDPR and was added to our privacy terms. It is possible to use their
+service.
+
 ### Can I use another analytics/tracking etc software?
 
 Before using any further tracking software please ask on privacy@apache.org
