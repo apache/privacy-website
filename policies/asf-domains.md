@@ -35,6 +35,7 @@ controlled by The Apache Software Foundation:
  - cloudstack.com
  - cloudstack.org
  - codehaus.org
+ - communityovercode.org
  - couchapp.com
  - couchapp.org
  - couchhack.org
