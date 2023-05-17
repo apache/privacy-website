@@ -19,8 +19,6 @@
 layout: default
 ---
 
-**---> DRAFT VERSION**
-
 This policy describes restrictions for websites managed by the
 ASF or hosted on ASF servers.
 
@@ -40,6 +38,9 @@ If you need analytics, please use our self-hosted [Matomo](/matomo) instance.
 
 YouTube content can be embedded only when the creator has given consent before loading
 any file from YouTube.
+
+Please see: [YouTube Example 1](/examples/youtube-html/with-youtube-api.html)
+and [YouTube Example 2](/examples/youtube-html/with-youtube-embeds.html)
 
 ## 3) Cookies
 

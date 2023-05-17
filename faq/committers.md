@@ -67,8 +67,8 @@ Please do not install and run your own instances of Matomo.
 
 ### Can I use Scarf to analyse our downloads?
 
-Yes: Scarf has signed a DPA with us, fully supports the GDPR and was added to our privacy terms. It is possible to use their
-service.
+Yes: Scarf has signed a DPA with us, fully supports the GDPR and was added to our privacy terms. 
+It is possible to use their service.
 
 ### Can I use another analytics/tracking etc software?
 
@@ -99,6 +99,8 @@ actively wants to use them. Arrange this by showing a placeholder image first
 and loading the map when the user clicks on the image. Make it clear
 that users will load a Google Map with their click.
 
+For an idea of how to implement this, please see: [YouTube Example 1](/examples/youtube-html/with-youtube-api.html)
+
 ### Can I embed videos (from YouTube, Vimeo, etc.)?
 
 Yes, you can embed videos on the website, but they should load
@@ -109,6 +111,9 @@ will load a video from a third party.
 
 If you don't want placeholder images, consider self-hosted videos
 and using an open source player like [Plyr](https://github.com/sampotts/plyr).
+
+For embedding videos, please see: [YouTube Example 1](/examples/youtube-html/with-youtube-api.html)
+and [YouTube Example 2](/examples/youtube-html/with-youtube-embeds.html)
 
 ### Can I embed social plugins (in example Like-Buttons)?
 
