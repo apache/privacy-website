@@ -26,6 +26,16 @@ Welcome to the Data Privacy website.
 The Apache Software Foundation is committed to protect the privacy
 of their Members, Committers and Users.
 
+## Confused by the GDPR? Online Meeting on 28 Jun 2023
+
+If you have questions about the GDPR in general, need to know something privacy related for your project work, or have questions about what kind of tools you can use for your project's website - you are welcome to join an online meeting on the 28 Jun 2023. 
+
+Please follow this linke to [timeanddate.com](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2023&month=6&day=28&hour=19&min=0&sec=0&p1=970&p2=179&p3=224&p4=240) to see exact time.
+
+If you have any specific questions or wishes we should talk about; please let me know beforehand so I can get the answers.
+
+Please let me know if you want to attend by sending an e-mail to vp-privacy@apache.org
+
 ## Privacy related questions
 
 If you have questions related to privacy at
