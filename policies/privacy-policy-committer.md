@@ -80,7 +80,7 @@ Although you can change this email address later, it will remain in our records.
 
 This may be used for creating your Apache account and will become publicly visible 
 once your account is created (see Public Name above). Any email sent to 
-<id>@apache.org will be forwarded to your current email address.
+__id__@apache.org will be forwarded to your current email address.
 Please note that changing your Apache ID later may be very difficult or impossible. 
 If you value your privacy, avoid using your real name or any personal data for your ID.
 
