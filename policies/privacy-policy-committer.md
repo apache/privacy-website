@@ -124,6 +124,6 @@ If you prioritize your privacy, we advise against using SVN to publish your pers
 
 ### Github and ASF account IDs
 
-PMC members will see the connection between your Github ID and your ASF account ID.
+The Infrastructure team will see the connection between your Github ID and your ASF account ID.
 Given the Open Source nature of work, it cannot be excluded that others will
 find out about this connection as well.
