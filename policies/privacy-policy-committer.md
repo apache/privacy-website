@@ -21,15 +21,13 @@ layout: default
 
 **---> DRAFT VERSION**
 
-
 This Privacy Policy clarifies the nature, scope and purpose of the processing of personal data
-(hereinafter referred to as "Data") within the ASF's online offerings and related websites, features
-and content, as well as our external online presence, e.g. our social media profiles on Facebook, Twitter, YouTube, and other services
-(collectively referred to as "online presence").
+from committers (contributors with an ASF account).
+
 With regard to the terminology we use here, e.g. "Processing" or "Responsible",
 we refer to the definitions in Article 4 of the European Union's General Data Protection Regulation (GDPR).
 
-## 1.  Name and contact details of the controller and the company data protection officer
+## 1. Contact Details of the Controller and Company Data Protection Officer
 
 This privacy policy applies to data processing by:   
 
@@ -41,73 +39,91 @@ U.S.A.
 
 E-Mail: vp-privacy@apache.org
 
-##  2. Collection and storage of personal data and the nature and purpose of their use
+##  2. Collection, Storage, and Use of Personal Data
 
-We need to collect some of your information. This is necessary to 
-make sure contributions to our codebases and other crucial parts of the ASF 
-have well-documented Intellectual Property provenance.
+We collect some of your information when you join the Apache Software Foundation as a committer.
+This is to ensure that contributions to our codebases and other critical parts 
+of the ASF are well-documented for Intellectual Property provenance. 
+For this reason, we require you to fill out a form (ICLA) with your personal data.
 
-### 1. Information submitted voluntarily on the ICLA form
+### 1. Information Submitted on the ICLA Form
 
-NOTE: To protect your privacy, you should not copy anyone when submitting your document
-to the secretary.
+**NOTE:** For your privacy protection, avoid copying others when submitting your document to the secretary.
 
-#### Full name
+#### Full Name
 
-This is your name that you use to sign legal documents. The name is 
-visible to the secretary team, the system administrators, and you. 
-It is not shared with others. It is used as the legal basis for the ICLA contract.
-The full name will be made known to the public unless you choose a public name.
+This should be your legal name used for signing documents. 
+It is used as the legal basis for the ICLA contract. Unless you opt for a public name, 
+your full name will be made public.
 
 #### Public name
 
-This is your name as known to the public. If you are voted as a committer, this name will 
-be shown along with your Apache id at [Committer List](https://people.apache.org/committer-index.html).
-
-The public name is also used for internal toolings without any restrictions.
+This will be your publicly known name. If you are elected as a committer, 
+your public name will be displayed along with your Apache id at [Committer List](https://people.apache.org/committer-index.html). 
+It is also used unrestrictedly in our internal tools.
 
 #### Postal Address
 
-This is your personal residence. It is used only to disambiguate your document from 
-others which may have the same or similar name. It is visible to the secretary team 
-and system administrators.
+This should be your personal residence address and will be used to differentiate your document from others that may have similar names.
 
 #### Country
 
-This is the country of your personal residence. It is used only to disambiguate 
-your document from others which may have the same or similar name. It is visible 
-to the secretary team and system administrators.
+This refers to the country of your residence and is used in the same manner as 
+your postal address.
 
 #### Email
 
-This is the forwarding address for mail received at your ASF email address. 
-This E-Mail adress can be changed later as you wish. However, it will remain in our documents.
-It is visible to the secretary team and system administrators.
+This will serve as your forwarding address for mail received at your ASF email address. 
+Although you can change this email address later, it will remain in our records. 
 
 #### Preferred Apache ID
 
-This may be used to create your Apache account. It is visible to the public 
-once your account is created (see Public Name above). E-mail sent to <id>@apache.org
-will be forwarded to your current E-Mail address.
-
-Please note: it is very difficult, if not impossible, to change the Apache ID. If you need
-privacy, please don't use your real name or any other personal data for your ID.
+This may be used for creating your Apache account and will become publicly visible 
+once your account is created (see Public Name above). Any email sent to 
+<id>@apache.org will be forwarded to your current email address.
+Please note that changing your Apache ID later may be very difficult or impossible. 
+If you value your privacy, avoid using your real name or any personal data for your ID.
 
 #### Notify project
 
-This may be used to create your Apache account. The project you list first
-will be notified that your document was accepted or rejected but not its contents.
+The project you list first will be notified about whether your document was 
+accepted or rejected, but not about its content.
 
-### 2. Information submitted voluntarily by sending email to a public Apache email list
+### Access to the data mentioned in the ICLA
 
-The entire email, including your "from" address, the subject, and body of the email 
-are archived and are publicly visible and searchable. Additionally, copies of your email 
-are made available to a number of publicly archived and publicly searchable internet sites.
-This makes it impossible to delete emails even if they contain sensitive information.
-You should never include any personal information in emails sent to public Apache email lists.
+The ICLA data will be maintained by the ASF Secretary team. 
+The Infrastructure team  will have access while maintaining the systems. 
+The PMC Chairs will have access to ICLA data to create your ASF user ID 
+and grant project access. 
 
-Please also see: [Mailing List Policy](/policies/mailinglist-policy.html)
+### Deletion of ICLA data
 
-### 3. The ASF does not ever sell any personal information.
+Given the legal requirements of demonstrating where code originates and our 
+rights to publish it, we cannot remove submitted ICLAs. Since code contributions 
+are forked and synced across numerous codebases, attempts to delete them would 
+be unsuccessful and excessive.
 
-The Apache Software Foundation does not sell any personal information.
+### Deletion of ICLA data from deceased persons
+
+Deceased persons are not protected by the GDPR or similar privacy laws.
+
+### Use of SVN for Personal Data Publication
+
+Certain files, such as members.txt, allow committers to optionally 
+publish their personal information. These files are utilized by various tools 
+to disseminate information publicly on the internet.
+
+Although additions to these files can theoretically be reversed, thereby 
+stopping further internet publication, it's essential to remember that 
+due to the SVN's inherent nature, previous versions of the file will 
+persist in the SVN history and could be retrievable for those with access,
+mostly the ASF membership.
+
+Past versions of this file or similar ones are accessible to ASF Membership. 
+If you prioritize your privacy, we advise against using SVN to publish your personal data.
+
+### Github and ASF account IDs
+
+PMC members will see the connection between your Github ID and your ASF account ID.
+Given the Open Source nature of work, it cannot be excluded that others will
+find out about this connection as well.
