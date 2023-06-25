@@ -93,8 +93,8 @@ accepted or rejected, but not about its content.
 
 The ICLA data will be maintained by the ASF Secretary team. 
 The Infrastructure team  will have access while maintaining the systems. 
-The PMC Chairs will have access to ICLA data to create your ASF user ID 
-and grant project access. 
+The PMC Chairs and Members have access to Full Name, Public Name, 
+and Email components of ICLA data to create your ASF user ID and grant project access.
 
 ### Deletion of ICLA data
 
