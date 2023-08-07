@@ -58,6 +58,13 @@ To avoid legal risks, ASF projects shall not use Google Analytics at all.
 
 Instead, the Privacy team has established Matomo for the use of their projects.
 
+### Could I use Google Search for my website?
+
+The Apache Software Foundation discourages the embed Google Search on your website.
+Instead, please use privacy friendly alternatives as [PageFind](https://pagefind.app/).
+PageFind will index your statically created website and provide search even on 
+large websites.
+
 ### Can I use Web Analytics (Matomo)?
 
 Yes: the Privacy Comittee has established a VM running Matomo, a GDPR compliant 
