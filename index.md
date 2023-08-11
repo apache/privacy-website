@@ -72,6 +72,10 @@ to VP Privacy personally (vp-privacy@apache.org).
 
 Short answer: no. Please see: [software users FAQ](/faq/software-users.html)
 
+## Guest posts on this website
+
+"Guest posts" requests for this website are NOT possible and will be ignored.
+
 ## Security issues
 
 If you think you found a security issue, check out our
