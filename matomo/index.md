@@ -26,7 +26,7 @@ what features are most frequently read up on, where users get lost in the docume
 This data allows us to better understand how users use the system, the website, and the docs and where to focus improvements next.
 
 You can look at Matomo here:
-[https://matomo.privacy.apache.org/](https://matomo.privacy.apache.org/index.php?module=MultiSites&action=index&idSite=1&period=day&date=yesterday)
+[https://analytics.apache.org/](https://analytics.apache.org/index.php?module=MultiSites&action=index&idSite=1&period=day&date=yesterday)
 
 If you need to learn more about your users, you can ask for a site ID and tracking code at 
 either privacy@apache.org or in the ASF slack channel #privacy-matomo.
