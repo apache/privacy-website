@@ -3,3 +3,7 @@ jekyll:
   target: asf-site
 publish:
   whoami: asf-site
+notifications:
+  commits: privacy-commits@apache.org
+  issues:  privacy-commits@apache.org
+  pullrequests: privacy-commits@apache.org
