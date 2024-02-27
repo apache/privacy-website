@@ -36,7 +36,7 @@ If you need analytics, please use our self-hosted [Matomo](/matomo) instance.
 
 ## 2) YouTube
 
-YouTube content can be embedded only when the creator has given consent before loading
+YouTube content can be embedded only when the visitor has given consent before loading
 any file from YouTube.
 
 Please see: [YouTube Example 1](/examples/youtube-html/with-youtube-api.html)
@@ -44,9 +44,10 @@ and [YouTube Example 2](/examples/youtube-html/with-youtube-embeds.html)
 
 ## 3) Cookies
 
-No cookies are allowed, except if the user must give consent before the website sets the cookie.
+No cookies are allowed, except if:
 
-If the cookie is not used for tracking, but used for managing a browser session, no user consent is necessary.
+* the cookie is not used for tracking, but used for managing a browser session, or
+* the cookie is only placed after the visitor explicitly consents to being tracked.
 
 ## 4) Using Assets from other Domains
 
@@ -55,12 +56,12 @@ All assets need to be hosted on ASF servers.
 
 ## 5) (Google) Maps 
 
-(Google) Maps can usually be used, if the site user gives consent before the first time a map loads.
+(Google) Maps can usually be used, if the site visitor gives consent before the first time a map loads.
 
 ## 6) Social Media
 
 Social Media buttons (Facebook Like, showing Instagram embeds, Twitter pixel) can
-only be used when the site user gives consent before the buttons load.
+only be used when the site visitor gives consent before the buttons load.
 
 ## 7) Facebook Pages
 
