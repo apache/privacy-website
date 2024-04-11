@@ -27,23 +27,23 @@ All changes which may require an update in our terms or other privacy related
 documentation need to be reported to privacy@apache.org. In best case, with some 
 time between announcement and change.
 
-Examples for changes which may require privacy policy updates:
+Examples of changes which may require privacy policy updates:
 
- - adding a new service, like webhost server company
+ - adding a new service, e.g. a webhost server company
  - removing a service, which may not be any longer in the terms
- - changes to logfiles, in example when IP addresses are logged (which werent't before)
+ - changes to logfiles, in example when IP addresses are logged (which weren't before)
  - moving data with PI to other services like a managed service
  - a new domain was registered, transferred or removed
 
-Other notifications may be sent when:
+Other notifications may be needed when:
 
- - another office or committee requests user data from infra, which they may not access (like running analytics on diversification with a 3rd party)
+ - another office or committee requests user data from infra, to which they may not access (like running analytics on diversification with a 3rd party)
  - a security issue happened and user addresses and password have been stolen (data leaks in general)
 
 No notification is required when:
 
- - new VMs are started or reorganized with companies which we already have an DPA for
+ - new VMs are started or reorganized with companies for which we already have a DPA
  - data is migrated from an outdated database version to a new version
- - a CDN is setup with a company which we already have a DPA for and which is already mentioned in the terms
+ - a CDN is set up with a company for which we already have a DPA and which is already mentioned in the terms
  - a new project subdomain was created or removed
  - a new user account was created or removed
