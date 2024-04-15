@@ -46,6 +46,18 @@ Kind regards,"
 
 ## Project Websites
 
+## How can we integrate a third-party embeds?
+
+To integrate embeds while complying with data privacy laws, 
+user consent is crucial because this service, like Google Analytics, 
+collects personal data such as IP addresses. 
+
+Here are compliant integration methods:
+
+* **Direct Link:** Use a direct link to the service, explicitly stating where it leads.
+* **Consent Before Loading:** Embed the elements but display a consent button or notice before loading.
+* **Limited Access:** Restrict access to a small group and inform them about the data usage. Always ensure informed consent is obtained and documented, regardless of the method used.
+
 ### Can I use Google Analytics?
 
 The Apache Software Foundation discourages the use of Google Analytics.
