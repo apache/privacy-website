@@ -46,6 +46,17 @@ Kind regards,"
 
 ## Project Websites
 
+## Who is authorized to sign Data Processing Agreements (DPAs)?
+
+At the Apache Software Foundation, only the Vice President of Data Privacy is authorized to sign Data Processing Agreements (DPAs). Individual projects within the Foundation do not have the authority to sign DPAs. A
+
+ DPA is a legally binding agreement where the data processor 
+ (a company like an website analytics tool that processes data on behalf of the Foundation) 
+ and the data controller (the Apache Software Foundation, 
+ which determines the purposes and means of processing personal data) formalize their responsibilities regarding data protection and privacy. 
+ 
+ If a DPA is required, it should be discussed and requested through the privacy@ mailing list.
+
 ## How can we integrate a third-party embeds?
 
 To integrate embeds while complying with data privacy laws, 
