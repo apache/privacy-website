@@ -66,3 +66,9 @@ only be used when the site visitor gives consent before the buttons load.
 ## 7) Facebook Pages
 
 ASF Projects cannot run Facebook pages, due to Articles 5 §2 and 26 of the GDPR.
+
+## 8) Any other software
+
+Generally speaking, you cannot transmit users data without consent. This includes 
+the IP address. If you want to embed a third-party element, you need to ask for consent,
+except we have signed a DPA with the provider.
