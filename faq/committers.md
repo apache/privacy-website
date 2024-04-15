@@ -99,7 +99,7 @@ there is no reason to use Google CDNs.
 To prevent any data being transmitted to a third party,
 [download the fonts and host them with your project website](https://github.com/google/fonts#self-host-fonts-available-from-google-fonts).
 
-### Can I embed Google Maps?
+### Can I embed Google Maps/Google Calendar/similar embeds?
 
 Yes, you can use Google Maps, but they should only activate if the user
 actively wants to use them. Arrange this by showing a placeholder image first
