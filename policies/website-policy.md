@@ -40,7 +40,7 @@ YouTube content can be embedded only when the visitor has given consent before l
 any file from YouTube.
 
 Please see: [YouTube Example 1](/examples/youtube-html/with-youtube-api.html)
-and [YouTube Example 2](/examples/youtube-html/with-youtube-embeds.html)
+or [YouTube Example 2 (requires two clicks)](/examples/youtube-html/with-youtube-embeds.html)
 
 ## 3) Cookies
 
