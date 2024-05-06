@@ -19,7 +19,7 @@
 layout: default
 ---
 
-# Available Policies
+# Canned responses
 
 This page collects canned responses for PMC members and privacy committee members.
 If you use such a response, please make sure to always BCC vp-privacy@apache.org.
