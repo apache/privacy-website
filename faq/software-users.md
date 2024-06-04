@@ -27,24 +27,24 @@ This FAQ addresses users of our software in general.
 
 ### Do I need to sign a DPA with the Apache Software Foundation?
 
-No. As we are not controlling any of your data, it is not necessary
-to sign a DPA with us when you use our software.
+No. As we are not controlling any of your data, signing a DPA with us is 
+unnecessary when you use our software.
 
 ### Do you collect our users' data when we use your software?
 
 No. The Apache Software Foundation does provide software for the public good;
-it does not include any kind of software which you reveal any of your data to us.
-We do not process, reuse or sell any of your users' data.
+it does not include any software in which you reveal your data to us.
+We do not process, reuse, or sell your users' data.
 
 ### Do you provide SaaS (or similar) services?
 
-No. The Apache Software Foundation provides software, but it does not operate
-it directly. While there are companies which may provide assistance in running
-our software, these companies do not have any relationship with the Apache Software Foundation.
+No. The Apache Software Foundation provides software but does not operate it directly. 
+While some companies may assist in running our software, these companies do not have 
+any relationship with the Apache Software Foundation.
 
-### With whom do I need to sign a DPA when I use an ASF product like a webserver?
+### With whom do I need to sign a DPA when I use an ASF product like a web server?
 
-Please contact your lawyer or data privacy officer for these kind of questions;
-without giving any legal advice, usually your web hosting agency or
-your infrastructure provider will use our products to provide you with services
-and in many cases you may have to sign a DPA with them. 
+Please get in touch with your lawyer or data privacy officer for this kind of questions;
+without giving any legal advice, usually, your web hosting agency or
+your infrastructure provider will use our products to provide you with services, 
+and in many cases, you may have to sign a DPA with them. 
