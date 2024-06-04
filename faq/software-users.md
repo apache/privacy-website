@@ -48,3 +48,7 @@ Please get in touch with your lawyer or data privacy officer for this kind of qu
 without giving any legal advice, usually, your web hosting agency or
 your infrastructure provider will use our products to provide you with services, 
 and in many cases, you may have to sign a DPA with them. 
+
+### My device was hacked and I found ASF software on it. What should I do?
+
+Please see this FAQ: [I believe my phone or laptop was hacked](https://www.apache.org/foundation/faq#i-believe-my-phone-or-laptop-was-hacked-or-adversely-affected-by-the-apache-software-foundation-what-do-i-do)
