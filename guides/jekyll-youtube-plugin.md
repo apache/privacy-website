@@ -37,10 +37,9 @@ Thanks to the ASF Infrastructure team, ASF sites are allowed to use plugins
 with Jekyll. Plugins make it easier to embed YouTube videos on your site.
 
 A plugin is a Ruby script that extends Jekyll's functionality.
-The following plugin can be placed in side the ```_plugins``` directory of your Jekyll site.
+The following plugin can be placed inside the ```_plugins``` directory of your Jekyll site.
 
 ```ruby
-
 module Jekyll
   class YouTube < Liquid::Tag
     def initialize(tag_name, text, tokens)
@@ -97,9 +96,11 @@ Liquid::Template.register_tag('youtube', Jekyll::YouTube)
 
 To use the plugin, you can add the following code to your Markdown file:
 
+{% raw %}
 ```markdown
 {% youtube Hpe7p24DQo0 /img/placeholder.jpg %}
 ```
+{% endraw %}
 
 This will create a placeholder image that, when clicked, will load the YouTube video with the ID `Hpe7p24DQo0`.
 
