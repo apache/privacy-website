@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        
+        <link rel="alternate" type="application/rss+xml" title="Apache Software Foundation - Data Privacy RSS" href="/rss.xml" />
+        <link rel="stylesheet" href="/css/main.css">
+        <title></title>
+    </head>
+    <body>
+        <header>
+    <div class="header-logo"><a href="/"><img src="/images/asf-logo.png"/></a>
+        <div class="header-text">ASF Data Privacy</div>
+    </div>
+
+    <nav>
+    <label for="show-menu" class="show-menu">Show Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/policies">Policies</a></li>
+            <li>
+                <a href="#">Privacy FAQ &#9660;</a>
+                <ul class="hidden">
+                    <li><a href="/faq/community.html">Community Privacy FAQ</a></li>
+                    <li><a href="/faq/committers.html">Committers' Privacy FAQ</a></li>
+                    <li><a href="/faq/infrastructure.html">Infrastructure Privacy FAQ</a></li>
+                    <li><a href="/faq/software-users.html">Software Users FAQ</a></li>
+                    <li><a href="/responses">PMC Responses</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Guides</a>
+                <ul class="hidden">
+                    <li><a href="/guides/event-photography.html">Event Photos</a></li>
+                    <li><a href="/guides/jekyll-youtube-plugin.html">Jekyll Plugin for YouTube</a></li>
+                </ul>
+            <li><a href="/matomo">Matomo</a></li>
+            <li><a href="http://www.apache.org/foundation/">About the ASF</a></li>
+        </ul>
+    </nav>
+</header>
+
+        <main>
+            <h1 id="a-jekyll-plugin-for-embedding-youtube-videos">A Jekyll plugin for embedding YouTube videos</h1>
+
+<h2 id="the-issue">The Issue</h2>
+
+<p>We want to embed YouTube videos on our Jekyll site. How can we do this?</p>
+
+<h2 id="general-considerations">General Considerations</h2>
+
+<p>YouTube videos can be embedded when loading the YouTube video only after
+the user consents. Usually, this is done by clicking on a placeholder image
+or a similar element.</p>
+
+<h2 id="the-jekyll-plugin">The Jekyll plugin</h2>
+
+<p>Thanks to the ASF Infrastructure team, ASF sites are allowed to use plugins
+with Jekyll. Plugins make it easier to embed YouTube videos on your site.</p>
+
+<p>A plugin is a Ruby script that extends Jekyll’s functionality.
+The following plugin can be placed inside the <code class="language-plaintext highlighter-rouge">_plugins</code> directory of your Jekyll site.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">module</span> <span class="nn">Jekyll</span>
+  <span class="k">class</span> <span class="nc">YouTube</span> <span class="o">&lt;</span> <span class="no">Liquid</span><span class="o">::</span><span class="no">Tag</span>
+    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">tag_name</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">tokens</span><span class="p">)</span>
+      <span class="k">super</span>
+      <span class="vi">@text</span> <span class="o">=</span> <span class="n">text</span><span class="p">.</span><span class="nf">strip</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">render</span><span class="p">(</span><span class="n">context</span><span class="p">)</span>
+      <span class="n">video_id</span><span class="p">,</span> <span class="n">image_url</span> <span class="o">=</span> <span class="vi">@text</span><span class="p">.</span><span class="nf">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">)</span>
+      <span class="o">&lt;&lt;~</span><span class="no">HTML</span><span class="sh">
+        &lt;div class="youtube-placeholder yt-container-</span><span class="si">#{</span><span class="n">video_id</span><span class="si">}</span><span class="sh">" style="cursor: pointer;"&gt;
+          &lt;img src="</span><span class="si">#{</span><span class="n">image_url</span><span class="si">}</span><span class="sh">" alt="Video thumbnail"&gt;
+        &lt;/div&gt;
+        &lt;div class="youtube-placeholder-description"&gt;
+          Clicking on this image will load the video and send data from and to YouTube/Google.
+        &lt;/div&gt;
+        &lt;style&gt;
+          .youtube-placeholder {
+            width: 560px; 
+            height: auto;
+          }
+          .youtube-placeholder-description {
+            color: gray;
+            font-style: italic;
+          }
+        &lt;/style&gt;
+        &lt;script&gt;
+          document.addEventListener('DOMContentLoaded', function() {
+            var container = document.querySelector('.yt-container-</span><span class="si">#{</span><span class="n">video_id</span><span class="si">}</span><span class="sh">');
+            function addElement() {
+              var iframe = document.createElement('iframe');
+              iframe.setAttribute('width', '560');
+              iframe.setAttribute('height', '315');
+              iframe.setAttribute('src', 'https://www.youtube-nocookie.com/embed/</span><span class="si">#{</span><span class="n">video_id</span><span class="si">}</span><span class="sh">?autoplay=1');
+              iframe.setAttribute('title', 'YouTube video player');
+              iframe.setAttribute('frameborder', '0');
+              iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+              iframe.setAttribute('allowfullscreen', '');
+              container.innerHTML = '';
+              container.appendChild(iframe);
+            }
+            container.addEventListener('click', addElement);
+          });
+        &lt;/script&gt;
+</span><span class="no">      HTML</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="no">Liquid</span><span class="o">::</span><span class="no">Template</span><span class="p">.</span><span class="nf">register_tag</span><span class="p">(</span><span class="s1">'youtube'</span><span class="p">,</span> <span class="no">Jekyll</span><span class="o">::</span><span class="no">YouTube</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="using-the-plugin">Using the plugin</h2>
+
+<p>To use the plugin, you can add the following code to your Markdown file:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% youtube Hpe7p24DQo0 /img/placeholder.jpg %}
+</code></pre></div></div>
+
+<p>This will create a placeholder image that, when clicked, will load the YouTube video with the ID <code class="language-plaintext highlighter-rouge">Hpe7p24DQo0</code>.</p>
+
+<p>You can see the plugin in action on the <a href="https://logging.apache.org/blog/2024/07/25/Log4j-At-Community-Over-Code-2024.html">Logging Website</a>.
+The source code can be found <a href="https://github.com/apache/logging-site/blob/main/_plugins/youtube.rb">here</a>.</p>
+
+        </main>
+        <footer>
+    © 2021-2024 The Apache Software Foundation under the terms of the Apache License 2.0.
+
+    Apache, the Apache feather logo, and the Apache logo are either registered trademarks or 
+    trademarks of The Apache Software Foundation in the United States and other countries.
+</footer>
+
+    </body>
+</html>
