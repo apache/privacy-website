@@ -145,6 +145,9 @@ and using an open source player like [Plyr](https://github.com/sampotts/plyr).
 For embedding videos, please see: [YouTube Example 1](/examples/youtube-html/with-youtube-api.html)
 and [YouTube Example 2](/examples/youtube-html/with-youtube-embeds.html)
 
+Please look at this [Jekyll plugin](/guides/jekyll-youtube-plugin.html) if you 
+are running Jekyll on ASF infrastructure.
+
 ### Can I embed social plugins (in example Like-Buttons)?
 
 Yes, but you can only load them when users actively want them
