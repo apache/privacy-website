@@ -37,9 +37,8 @@ In example:
 
 "Dear sender,
 
-we have forwarded your message to Apache Software Foundation privacy committee,
-which will handle your request. You can always reach out to VP Data Privacy (vp-privacy@apache.org)
-or to the comittee directly (privacy@apache.org) if you have further questions.
+we have forwarded your message to the Apache Software Foundation privacy committee,
+which will handle your request. You can always reach out to VP Data Privacy (vp-privacy@apache.org) or the committee directly (privacy@apache.org) if you have further questions.
 
 Kind regards,"
 
@@ -51,13 +50,13 @@ Kind regards,"
 At the Apache Software Foundation, only the Vice President of Data Privacy is authorized to sign Data Processing Agreements (DPAs). Individual projects within the Foundation do not have the authority to sign DPAs. A
 
  DPA is a legally binding agreement where the data processor 
- (a company like an website analytics tool that processes data on behalf of the Foundation) 
+ (a company like a website analytics tool that processes data on behalf of the Foundation) 
  and the data controller (the Apache Software Foundation, 
  which determines the purposes and means of processing personal data) formalize their responsibilities regarding data protection and privacy. 
  
  If a DPA is required, it should be discussed and requested through the privacy@ mailing list.
 
-## How can we integrate a third-party embeds?
+## How can we integrate third-party embeds?
 
 To integrate embeds while complying with data privacy laws, 
 user consent is crucial because this service, like Google Analytics, 
@@ -75,7 +74,7 @@ The Apache Software Foundation discourages the use of Google Analytics.
 
 Court decisions around Google Analytics have changed several times
 in the past years and made its use uncertain. Several countries in the EU
-declared [Google Analytics cannot be used compliant to the GDPR](https://www.mglp.eu/en/is-the-usage-of-google-analytics-within-the-eu-illegal-from-now-on/).
+declared [Google Analytics cannot be used compliant with the GDPR](https://www.mglp.eu/en/is-the-usage-of-google-analytics-within-the-eu-illegal-from-now-on/).
 
 To avoid legal risks, ASF projects shall not use Google Analytics at all.
 
@@ -83,43 +82,43 @@ Instead, the Privacy team has established Matomo for the use of their projects.
 
 ### Could I use Google Search for my website?
 
-The Apache Software Foundation discourages the embed Google Search on your website.
-Instead, please use privacy friendly alternatives as [PageFind](https://pagefind.app/).
+The Apache Software Foundation discourages the embedding of Google Search on your website.
+Instead, please use privacy-friendly alternatives such as [PageFind](https://pagefind.app/).
 PageFind will index your statically created website and provide search even on 
 large websites.
 
 ### Can I use Web Analytics (Matomo)?
 
-Yes: the Privacy Comittee has established a VM running Matomo, a GDPR compliant 
-web analytics software. You can ask for your site id and tracking code at privacy@apache.org
+Yes: the Privacy Committee has established a VM running Matomo, a GDPR-compliant web analytics software. 
+You can ask for your site ID and tracking code at privacy@apache.org
 
-Please do not install and run your own instances of Matomo.
+Please do not install and run your instances of Matomo.
 
-### Can I use Scarf to analyse our downloads?
+### Can I use Scarf to analyze our downloads?
 
 Yes: Scarf has signed a DPA with us, fully supports the GDPR and was added to our privacy terms. 
 It is possible to use their service.
 
 ### Can I use another analytics/tracking etc software?
 
-Before using any further tracking software please ask on privacy@apache.org
+Before using any further tracking software please ask privacy@apache.org
 
 ### Can I use hosted versions of jQuery, images or anything else provided by servers we don't own?
 
-Please don't embed any content from servers which we don't own. Every server or CDN you use will need
+Please don't embed any content from servers that we don't own. Every server or CDN you use will need
 to be listed in our privacy policy. To avoid constant extensions to our privacy policy, please
-download the content and make it available from our own hosts.
-As of now, using third party CDNs does not even impose [performance benefits](https://wicki.io/posts/2020-11-goodbye-google-fonts/)
+download the content and make it available from our hosts.
+As of now, using third-party CDNs does not even impose [performance benefits](https://wicki.io/posts/2020-11-goodbye-google-fonts/)
 
 ### Can I use Google Fonts?
 
 You can use Google Fonts, but please host the fonts on ASF servers.
 
 ASF projects don't have any reason to load Google Fonts from
-Google servers. Even [performance wise](https://wicki.io/posts/2020-11-goodbye-google-fonts/),
+Google servers. Even [performance-wise](https://wicki.io/posts/2020-11-goodbye-google-fonts/),
 there is no reason to use Google CDNs.
 
-To prevent any data being transmitted to a third party,
+To prevent any data from being transmitted to a third party,
 [download the fonts and host them with your project website](https://github.com/google/fonts#self-host-fonts-available-from-google-fonts).
 
 ### Can I embed Google Maps/Google Calendar/similar embeds?
@@ -140,7 +139,7 @@ clicks on the image. Make it clear that users who click the image
 will load a video from a third party.
 
 If you don't want placeholder images, consider self-hosted videos
-and using an open source player like [Plyr](https://github.com/sampotts/plyr).
+and using an open-source player like [Plyr](https://github.com/sampotts/plyr).
 
 For embedding videos, please see: [YouTube Example 1](/examples/youtube-html/with-youtube-api.html)
 and [YouTube Example 2](/examples/youtube-html/with-youtube-embeds.html)
