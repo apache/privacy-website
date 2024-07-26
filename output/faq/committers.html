@@ -62,9 +62,8 @@ but don’t reply with any further information (confirmation of deletions etc).<
 
 <p>“Dear sender,</p>
 
-<p>we have forwarded your message to Apache Software Foundation privacy committee,
-which will handle your request. You can always reach out to VP Data Privacy (vp-privacy@apache.org)
-or to the comittee directly (privacy@apache.org) if you have further questions.</p>
+<p>we have forwarded your message to the Apache Software Foundation privacy committee,
+which will handle your request. You can always reach out to VP Data Privacy (vp-privacy@apache.org) or the committee directly (privacy@apache.org) if you have further questions.</p>
 
 <p>Kind regards,”</p>
 
@@ -75,13 +74,13 @@ or to the comittee directly (privacy@apache.org) if you have further questions.<
 <p>At the Apache Software Foundation, only the Vice President of Data Privacy is authorized to sign Data Processing Agreements (DPAs). Individual projects within the Foundation do not have the authority to sign DPAs. A</p>
 
 <p>DPA is a legally binding agreement where the data processor 
- (a company like an website analytics tool that processes data on behalf of the Foundation) 
+ (a company like a website analytics tool that processes data on behalf of the Foundation) 
  and the data controller (the Apache Software Foundation, 
  which determines the purposes and means of processing personal data) formalize their responsibilities regarding data protection and privacy.</p>
 
 <p>If a DPA is required, it should be discussed and requested through the privacy@ mailing list.</p>
 
-<h2 id="how-can-we-integrate-a-third-party-embeds">How can we integrate a third-party embeds?</h2>
+<h2 id="how-can-we-integrate-third-party-embeds">How can we integrate third-party embeds?</h2>
 
 <p>To integrate embeds while complying with data privacy laws, 
 user consent is crucial because this service, like Google Analytics, 
@@ -101,7 +100,7 @@ collects personal data such as IP addresses.</p>
 
 <p>Court decisions around Google Analytics have changed several times
 in the past years and made its use uncertain. Several countries in the EU
-declared <a href="https://www.mglp.eu/en/is-the-usage-of-google-analytics-within-the-eu-illegal-from-now-on/">Google Analytics cannot be used compliant to the GDPR</a>.</p>
+declared <a href="https://www.mglp.eu/en/is-the-usage-of-google-analytics-within-the-eu-illegal-from-now-on/">Google Analytics cannot be used compliant with the GDPR</a>.</p>
 
 <p>To avoid legal risks, ASF projects shall not use Google Analytics at all.</p>
 
@@ -109,43 +108,43 @@ declared <a href="https://www.mglp.eu/en/is-the-usage-of-google-analytics-within
 
 <h3 id="could-i-use-google-search-for-my-website">Could I use Google Search for my website?</h3>
 
-<p>The Apache Software Foundation discourages the embed Google Search on your website.
-Instead, please use privacy friendly alternatives as <a href="https://pagefind.app/">PageFind</a>.
+<p>The Apache Software Foundation discourages the embedding of Google Search on your website.
+Instead, please use privacy-friendly alternatives such as <a href="https://pagefind.app/">PageFind</a>.
 PageFind will index your statically created website and provide search even on 
 large websites.</p>
 
 <h3 id="can-i-use-web-analytics-matomo">Can I use Web Analytics (Matomo)?</h3>
 
-<p>Yes: the Privacy Comittee has established a VM running Matomo, a GDPR compliant 
-web analytics software. You can ask for your site id and tracking code at privacy@apache.org</p>
+<p>Yes: the Privacy Committee has established a VM running Matomo, a GDPR-compliant web analytics software. 
+You can ask for your site ID and tracking code at privacy@apache.org</p>
 
-<p>Please do not install and run your own instances of Matomo.</p>
+<p>Please do not install and run your instances of Matomo.</p>
 
-<h3 id="can-i-use-scarf-to-analyse-our-downloads">Can I use Scarf to analyse our downloads?</h3>
+<h3 id="can-i-use-scarf-to-analyze-our-downloads">Can I use Scarf to analyze our downloads?</h3>
 
 <p>Yes: Scarf has signed a DPA with us, fully supports the GDPR and was added to our privacy terms. 
 It is possible to use their service.</p>
 
 <h3 id="can-i-use-another-analyticstracking-etc-software">Can I use another analytics/tracking etc software?</h3>
 
-<p>Before using any further tracking software please ask on privacy@apache.org</p>
+<p>Before using any further tracking software please ask privacy@apache.org</p>
 
 <h3 id="can-i-use-hosted-versions-of-jquery-images-or-anything-else-provided-by-servers-we-dont-own">Can I use hosted versions of jQuery, images or anything else provided by servers we don’t own?</h3>
 
-<p>Please don’t embed any content from servers which we don’t own. Every server or CDN you use will need
+<p>Please don’t embed any content from servers that we don’t own. Every server or CDN you use will need
 to be listed in our privacy policy. To avoid constant extensions to our privacy policy, please
-download the content and make it available from our own hosts.
-As of now, using third party CDNs does not even impose <a href="https://wicki.io/posts/2020-11-goodbye-google-fonts/">performance benefits</a></p>
+download the content and make it available from our hosts.
+As of now, using third-party CDNs does not even impose <a href="https://wicki.io/posts/2020-11-goodbye-google-fonts/">performance benefits</a></p>
 
 <h3 id="can-i-use-google-fonts">Can I use Google Fonts?</h3>
 
 <p>You can use Google Fonts, but please host the fonts on ASF servers.</p>
 
 <p>ASF projects don’t have any reason to load Google Fonts from
-Google servers. Even <a href="https://wicki.io/posts/2020-11-goodbye-google-fonts/">performance wise</a>,
+Google servers. Even <a href="https://wicki.io/posts/2020-11-goodbye-google-fonts/">performance-wise</a>,
 there is no reason to use Google CDNs.</p>
 
-<p>To prevent any data being transmitted to a third party,
+<p>To prevent any data from being transmitted to a third party,
 <a href="https://github.com/google/fonts#self-host-fonts-available-from-google-fonts">download the fonts and host them with your project website</a>.</p>
 
 <h3 id="can-i-embed-google-mapsgoogle-calendarsimilar-embeds">Can I embed Google Maps/Google Calendar/similar embeds?</h3>
@@ -166,7 +165,7 @@ clicks on the image. Make it clear that users who click the image
 will load a video from a third party.</p>
 
 <p>If you don’t want placeholder images, consider self-hosted videos
-and using an open source player like <a href="https://github.com/sampotts/plyr">Plyr</a>.</p>
+and using an open-source player like <a href="https://github.com/sampotts/plyr">Plyr</a>.</p>
 
 <p>For embedding videos, please see: <a href="/examples/youtube-html/with-youtube-api.html">YouTube Example 1</a>
 and <a href="/examples/youtube-html/with-youtube-embeds.html">YouTube Example 2</a></p>
