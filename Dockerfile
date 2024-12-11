@@ -15,54 +15,29 @@
 # specific language governing permissions and limitations
 # under the License.
 
-FROM ruby:2.7.1-alpine3.11 as dependencies
+FROM ruby:3.3-slim
 
-RUN apk --no-cache add \
-  zlib-dev \
-  libffi-dev \
-  build-base \
+RUN apt-get update && apt-get install -y \
+  build-essential \
   libxml2-dev \
-  imagemagick-dev \
-  readline-dev \
   libxslt-dev \
-  libffi-dev \
-  yaml-dev \
-  zlib-dev \
-  vips-dev \
-  sqlite-dev \
-  cmake
-
-RUN apk --no-cache add \
-  linux-headers \
-  openjdk8-jre \
-  less \
-  zlib \
-  libxml2 \
-  readline \
-  libxslt \
-  libffi \
+  zlib1g-dev \
   git \
-  nodejs \
-  tzdata \
-  shadow \
-  bash \
-  su-exec \
-  nodejs-npm \
-  libressl \
-  yarn
+  curl \
+  bash  
 
 WORKDIR /root/build
 
-RUN gem install bundler:1.17.3
-ENV BUNDLE_CLEAN=false
+RUN gem update --system && \
+    gem install bundler
 
 COPY Gemfile .
 
-RUN bundle config clean
-RUN bundle install
+RUN bundle install && bundle list
 
 EXPOSE 4000
 EXPOSE 35729
 
 # $0 = Commando, $@ Arguments!
 ENTRYPOINT ["sh", "-c", "bundle exec jekyll $0 $@ --host 0.0.0.0"]
+
