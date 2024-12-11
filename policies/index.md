@@ -32,6 +32,13 @@ Please read about our [latest changes here](/policies/latest-changes.html).
  - [Privacy Policy for committers](/policies/privacy-policy-committer.html)  
    *(persons with ASF account and direct committer privileges)*
 
+## Privacy Policies for downloadable products
+
+ - [Privacy Policy for ASF Downloadable Applications (high privacy standards)](/policies/privacy-products-policy-high.html)  
+   *(products, that can be downloaded and installed, but never send any data to any other service)*
+ - [Privacy Policy for products with medium privacy standards](/policies/privacy-products-policy-medium.html)  
+   *(products, that can be downloaded and installed, but send data to other services)*
+
 ## Internal Policies
 
  - [Website Policy](/policies/website-policy.html)
