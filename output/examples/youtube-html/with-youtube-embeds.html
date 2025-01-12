@@ -36,7 +36,7 @@
         <h1>Usage</h1>
         <div>
             This script loads a YouTube embedded video when a user clicks on the image.
-            Once loaded, the video will NOT be played automatically.
+            Once loaded, the video will NOT be played automatically - this needs a second click.
             This version is simpler to add, and probably a little bit faster to load.
             However, it appears to be less flexible than the API version.
             <a href="https://developers.google.com/youtube/iframe_api_reference">See the documentation for more information.</a>
@@ -58,5 +58,20 @@
 
             container.addEventListener('click', addElement);
         </script>
-    </body>
+	<h2>Content-Security-Policy</h2>
+	<div>
+		To prevent accidentally loading YouTube resources without
+		asking the user for consent, Apache sites have a
+		<a href="https://issues.apache.org/jira/browse/INFRA-26115">default <code>Content-Security-Policy</code></a>
+		that does not allow this.
+		When you're confident you've applied the appropriate consent validation,
+		you can allow loading resources from YouTube by putting
+		the following <code>Content-Security-Policy</code> in your <code>.htaccess</code>:
+		<pre>
+		    # Allow loading YouTube content after ensuring consent.
+		    # Additional allowances to be coordinated with privacy team
+		    Header set Content-Security-Policy "frame-src https://www.youtube-nocookie.com https://www.youtube.com"
+		</pre>
+	</div>
+            </body>
 </html>
