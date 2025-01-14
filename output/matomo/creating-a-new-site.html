@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        
+        <link rel="alternate" type="application/rss+xml" title="Apache Software Foundation - Data Privacy RSS" href="/rss.xml" />
+        <link rel="stylesheet" href="/css/main.css">
+        <title></title>
+    </head>
+    <body>
+        <header>
+    <div class="header-logo"><a href="/"><img src="/images/asf-logo.png"/></a>
+        <div class="header-text">ASF Data Privacy</div>
+    </div>
+
+    <nav>
+    <label for="show-menu" class="show-menu">Show Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/policies">Policies</a></li>
+            <li>
+                <a href="#">Privacy FAQ &#9660;</a>
+                <ul class="hidden">
+                    <li><a href="/faq/community.html">Community Privacy FAQ</a></li>
+                    <li><a href="/faq/committers.html">Committers' Privacy FAQ</a></li>
+                    <li><a href="/faq/infrastructure.html">Infrastructure Privacy FAQ</a></li>
+                    <li><a href="/faq/software-users.html">Software Users FAQ</a></li>
+                    <li><a href="/responses">PMC Responses</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Guides</a>
+                <ul class="hidden">
+                    <li><a href="/guides/event-photography.html">Event Photos</a></li>
+                    <li><a href="/guides/jekyll-youtube-plugin.html">Jekyll Plugin for YouTube</a></li>
+                </ul>
+            <li><a href="/matomo">Matomo</a></li>
+            <li><a href="http://www.apache.org/foundation/">About the ASF</a></li>
+        </ul>
+    </nav>
+</header>
+
+        <main>
+            <h1 id="adding-a-matomo-website">Adding a Matomo website</h1>
+
+<ul>
+  <li>Login to analytics.apache.org</li>
+  <li>Click on “All Website” on the top right</li>
+  <li>Click on the “Add a new website” button on the bottom of the following page</li>
+</ul>
+
+<p><img src="/images/create-matomo-site/add-website.png" alt="Add a new website" /></p>
+
+<ul>
+  <li>When asked “What would you like to measure?” choose “Website”</li>
+  <li>Fill out the form, use the projects name (like: Apache ORC)) as the name, and add the URL as URL (https://orc.apache.org)</li>
+  <li>Mark “Only track visits…” to prevent tracking spam</li>
+  <li>Change “Time Zone” (on the bottom) to UTC</li>
+  <li>Click “Save”</li>
+</ul>
+
+<p><img src="/images/create-matomo-site/basic.png" alt="Basic settings" /></p>
+
+<ul>
+  <li>Click on “Systems”, then “Users”</li>
+  <li>Make sure the role for the recent project is edited</li>
+  <li>Change the “anonymous” role to “view”</li>
+</ul>
+
+<p><img src="/images/create-matomo-site/permission.png" alt="Permissions" /></p>
+
+<ul>
+  <li>Go back to “Websites”, then “Manage”. Choose the website to manage and click “View Tracking Code”</li>
+  <li>Open “Advanced Settings”</li>
+  <li>Enable “DoNotTrack detection”</li>
+  <li>Enable “Disable all tracking cookies”</li>
+  <li>Copy the updated tracking code, send it to the user</li>
+</ul>
+
+
+        </main>
+        <footer>
+    © 2021-2024 The Apache Software Foundation under the terms of the Apache License 2.0.
+
+    Apache, the Apache feather logo, and the Apache logo are either registered trademarks or 
+    trademarks of The Apache Software Foundation in the United States and other countries.
+</footer>
+
+    </body>
+</html>
