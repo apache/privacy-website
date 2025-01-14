@@ -185,3 +185,9 @@ main {
     background: $main_background_color;
     font-family: $font;
 }
+
+main img {
+    max-width: 50%;
+    height: auto;
+    border: 1px solid #ddd;
+}

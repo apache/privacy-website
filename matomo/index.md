@@ -59,6 +59,7 @@ Details on collected information can be found in the [Privacy Policy for public 
 
 ## Matomo Details
 
+ - [Adding a new website](/matomo/creating-a-new-site.html)  
  - [Perform a Matomo upgrade](/matomo/upgrade-matomo.html)  
    *(members of the ASF Privacy Committee)*
  - [Matomo Help Center](https://matomo.org/help/)
