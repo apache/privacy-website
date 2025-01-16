@@ -202,14 +202,6 @@ The Apache Software Foundation uses the Microsoft Azure Data Centers (Microsoft 
 The servers are located in the USA and used for hosting databases and web content.
 Microsoft fully supports the GDPR. Details and privacy statements can be found [here](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=67).
 
-### (d) Online.net (Scaleway): Hosting 
-
-The Apache Software Foundation uses the Scaleway Data Centers (Scaleway S.A.S., 8 rue de la Ville l’Evêque, 75008 Paris) to maintain our servers.
-The servers are located in Europe and used for hosting databases and web content.
-Scaleway fully supports the GDPR.
-Details and privacy statements can be found [here](https://images-www.scaleway.com/wp-content/uploads/2021/05/05103001/DPA_EN_2020.pdf).
-
-
 ### (e) GitHub: Source Code Hosting 
 
 The Apache Software Foundation uses the GitHub Services (GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, California 94107 USA) to store, serve, and maintain source code.
