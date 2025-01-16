@@ -29,6 +29,7 @@ With regard to the terminology we use, e.g. "Processing" or "Responsible",
 we refer to the definitions in Article 4 of the General Data Protection Regulation (GDPR).
 
 ## 1.  Name and contact details of the controller and the company data protection officer
+
 This privacy policy applies to data processing by:
 
 Responsible:    
@@ -237,6 +238,14 @@ Details and privacy statements can be found [here](https://about.scarf.sh/privac
 
 The Apache Software Foundation uses Pony Mail (DinoSource ApS, Vangedevej 223A, DK-2870 Dyssegard, Denmark) to display mailing list content to the web. DinoSource ApS fully supports the GDPR and DPA is on file.
 
+### (i) Kapa.AI
+
+Some project websites are using Kapa.AI to provide an advanced interface to their documentation.
+Kapa.AI is a service provided by kapa.ai Inc., 1111B S Governors Ave #6248 Dover, DE 19904, US.
+Kapa.AI services will be provided as "opt-in". While Kapa.AIs datacenters are located in the US,
+the service supports the GDPR which is also reflected in the DPA.
+Read more about the privacy policy of Kapa.AI at [their website](https://www.kapa.ai/content/privacy-policy).
+
 ## 5. Social Media Plug-ins
 
 We rely on our website on the basis of Art. 6 para. 1 sentence 1 lit. f GDPR social plug-ins from the social networks Facebook, Twitter and Instagram to make our company better known.
@@ -294,7 +303,7 @@ Our security measures are continuously improved in line with technological devel
 
 ## 10. Updating and changing this privacy policy
 
-This privacy policy is currently valid and is valid as of 2022-04-21.
+This privacy policy is currently valid and is valid as of 2025-01-16.
 
 As a result of the further development of our website and offers thereof, or due to changed legal or official requirements, it may be necessary to change this privacy policy.
 The current privacy policy can be viewed and printed by you at any time on the website at https://privacy.apache.org/policies/privacy-policy-public.html.
