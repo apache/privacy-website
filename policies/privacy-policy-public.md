@@ -196,12 +196,6 @@ The Apache Software Foundation uses the Amazon Web Services ("AWS") service of A
 By the nature of DNS, the data is stored in several servers around the globe.
 AWS data centers are certified to ISO 27001, 27017 and 2018 as well as PCI DSS Level 1.
 
-### (c) LeaseWeb: Hosting 
-
-The Apache Software Foundation uses the LeaseWeb Data Centers (Leaseweb USA, Inc., 9301 Innovation Drive / Suite 100, Manassas, VA 20110) to maintain our servers.
-The servers are located in the USA and used for hosting databases and web content.
-LeaseWeb fully supports the GDPR. Details and privacy statements can be found [here](https://www.leaseweb.us/legal/personal-data-protection-acts).
-
 ### (d) Microsoft Azure: Hosting 
 
 The Apache Software Foundation uses the Microsoft Azure Data Centers (Microsoft Corporation, One Microsoft Way, Redmond, Washington 98052 USA) to maintain our servers.

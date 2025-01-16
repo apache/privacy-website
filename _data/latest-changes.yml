@@ -1,4 +1,6 @@
 - date: 2025-01-16
+  short: Removed LeaseWeb from the list of data processors, as they are no longer used.
+- date: 2025-01-16
   short: added Kapa.AI to the list of external data processors
 - date: 2023-05-17
   short: added examples for Youtube embedds
