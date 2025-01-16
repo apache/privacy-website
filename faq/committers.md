@@ -99,6 +99,11 @@ Please do not install and run your instances of Matomo.
 Yes: Scarf has signed a DPA with us, fully supports the GDPR and was added to our privacy terms. 
 It is possible to use their service.
 
+### Can I use Kapa.AI on our website (Answer Machine)?
+
+Yes: Kapa has signed a DPA with us. Please ensure that Kapa.AI is implemented in a way
+it requires user consent before loading. This feature is provided by Kapa in their settings.
+
 ### Can I use another analytics/tracking etc software?
 
 Before using any further tracking software please ask privacy@apache.org
