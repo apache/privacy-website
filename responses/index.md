@@ -113,3 +113,26 @@ according to GDPR, Article 12 Item 5.
 
 For that reason, I have to, unfortunately, reject your request. 
 
+## Response to a generic remove my data
+
+### Justification:
+
+Some users think that the ASF collects personal data and want it removed.
+The request is often vague and does not provide any details.
+In such cases, it is allowed to ask the user for more details.
+
+### Response:
+
+Hello,
+
+Thanks for reaching out.
+
+The Apache Software Foundation (ASF) is a nonprofit open-source community. 
+We don’t sell software, provide services, or collect user data. 
+After checking our records, we don’t have any account associated with your email address.
+
+If you believe we hold your data, please clarify why you think this is the case. 
+ASF projects are freely available, and participation in public mailing lists is voluntary.
+
+If you have more details to share, feel free to contact us at privacy@apache.org.
+
