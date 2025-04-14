@@ -15,4 +15,5 @@
 # specific language governing permissions and limitations
 # under the License.
 
-Header set Content-Security-Policy "frame-src *.apache.org 'self'"
+# This override is currently needed by privacy-policy-public.html
+Header edit Content-Security-Policy "frame-src " "frame-src https://*.apache.org "
