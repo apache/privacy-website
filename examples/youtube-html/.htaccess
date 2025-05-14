@@ -1,3 +1,3 @@
 # Allow loading YouTube content after ensuring consent.
 # Additional allowances to be coordinated with privacy team
-Header edit Content-Security-Policy "frame-src" "frame-src https://www.youtube-nocookie.com https://www.youtube.com"
+SetEnv CSP_PROJECT_DOMAINS "https://www.youtube-nocookie.com https://www.youtube.com" 

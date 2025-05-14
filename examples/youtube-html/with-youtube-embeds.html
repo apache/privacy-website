@@ -62,15 +62,15 @@
 	<div>
 		To prevent accidentally loading YouTube resources without
 		asking the user for consent, Apache sites have a
-		<a href="https://issues.apache.org/jira/browse/INFRA-26115">default <code>Content-Security-Policy</code></a>
+		<a href="https://infra.apache.org/csp.html">default <code>Content-Security-Policy</code></a>
 		that does not allow this.
 		When you're confident you've applied the appropriate consent validation,
-		you can allow loading resources from YouTube by putting
-		the following <code>Content-Security-Policy</code> in your <code>.htaccess</code>:
+		you can allow loading resources from YouTube by modifying the
+		<code>Content-Security-Policy</code> in the following way in your <code>.htaccess</code>:
 		<pre>
 		    # Allow loading YouTube content after ensuring consent.
 		    # Additional allowances to be coordinated with privacy team
-		    Header set Content-Security-Policy "frame-src https://www.youtube-nocookie.com https://www.youtube.com"
+		    SetEnv CSP_PROJECT_DOMAINS "https://www.youtube-nocookie.com https://www.youtube.com" 
 		</pre>
 	</div>
             </body>
