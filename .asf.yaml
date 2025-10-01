@@ -1,3 +1,8 @@
+# https://github.com/apache/infrastructure-asfyaml/blob/main/README.md
+---
+github:
+  description: "Web site for Apache Data Privacy"
+  homepage: https://privacy.apache.org/
 jekyll:
   whoami: main
   target: asf-site
