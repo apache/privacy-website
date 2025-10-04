@@ -78,7 +78,7 @@ declared [Google Analytics cannot be used compliant with the GDPR](https://www.m
 
 To avoid legal risks, ASF projects shall not use Google Analytics at all.
 
-Instead, the Privacy team has established Matomo for the use of their projects.
+Instead, the Privacy team has established [Matomo](/matomo/) for the use of their projects.
 
 ### Could I use Google Search for my website?
 
@@ -89,7 +89,7 @@ large websites.
 
 ### Can I use Web Analytics (Matomo)?
 
-Yes: the Privacy Committee has established a VM running Matomo, a GDPR-compliant web analytics software. 
+Yes: the Privacy Committee has established a [VM running Matomo](/matomo/), a GDPR-compliant web analytics software. 
 You can ask for your site ID and tracking code at privacy@apache.org
 
 Please do not install and run your instances of Matomo.
@@ -106,14 +106,14 @@ it requires user consent before loading. This feature is provided by Kapa in the
 
 ### Can I use another analytics/tracking etc software?
 
-Before using any further tracking software please ask privacy@apache.org
+Before using any further tracking software, please ask privacy@apache.org.
 
 ### Can I use hosted versions of jQuery, images or anything else provided by servers we don't own?
 
 Please don't embed any content from servers that we don't own. Every server or CDN you use will need
 to be listed in our privacy policy. To avoid constant extensions to our privacy policy, please
 download the content and make it available from our hosts.
-As of now, using third-party CDNs does not even impose [performance benefits](https://wicki.io/posts/2020-11-goodbye-google-fonts/)
+As of now, using third-party CDNs does not even impose [performance benefits](https://wicki.io/posts/2020-11-goodbye-google-fonts/).
 
 ### Can I use Google Fonts?
 
@@ -133,7 +133,7 @@ actively wants to use them. Arrange this by showing a placeholder image first
 and loading the map when the user clicks on the image. Make it clear
 that users will load a Google Map with their click.
 
-For an idea of how to implement this, please see: [YouTube Example 1](/examples/youtube-html/with-youtube-api.html)
+For an idea of how to implement this, please see: [YouTube Example 1](/examples/youtube-html/with-youtube-api.html).
 
 ### Can I embed videos (from YouTube, Vimeo, etc.)?
 
