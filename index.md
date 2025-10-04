@@ -52,7 +52,7 @@ Please see our [community FAQ](/faq/community.html#can-i-get-my-data-removed-usi
 ## Want to help? Spot an error?
 
 The preferred way to submit improvements is by GitHub PR:
-[Privacy@Github](https://github.com/apache/privacy-website)
+[github.com/apache/privacy-website](https://github.com/apache/privacy-website)
 
 If you don't want to submit PRs, you can also send your message
 to either privacy@apache.org (many people read this list) or
