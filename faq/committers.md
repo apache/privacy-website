@@ -168,3 +168,7 @@ The German [Datenschutzkonferenz decided on 2019-04-01](https://www.datenschutzk
 ### Can I add a Facebook/Twitter etc custom pixel for creating a custom audience?
 
 No, not without approval from your user.
+
+### Can I add shields.io badge?
+
+No.
