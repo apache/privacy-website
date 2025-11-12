@@ -10,7 +10,7 @@ to create a docker image:
 
 ```
 $> cd <your project folder>
-$> docker build -t apache/privacy_apache_org .
+$> docker compose build
 ```
 
 Whenever you change something in the Dockers dependencies, you have to recreate
@@ -22,7 +22,7 @@ To run the website in serve mode (running a server to quickly check your code)
 you'll have to run this command:
 
 ```
-docker run --rm -p 4000:4000 --mount type=bind,src=$PWD,dst=/root/build --mount type=volume,dst=/root/build/node_modules -it apache/privacy_apache_org serve --watch --incremental
+docker compose up
 ```
 
 Once it runs, you can reach your website at:
@@ -38,5 +38,5 @@ If you find it necessary to connect to your Docker instance while working, you c
 and connect to it with this command:
 
 ```
-docker run --rm -p 4000:4000 --mount type=bind,src=$PWD,dst=/root/build --mount type=volume,dst=/root/build/node_modules -it  --entrypoint "/bin/bash" apache/privacy_apache_org
+docker compose exec privacy_apache_org bash
 ```
