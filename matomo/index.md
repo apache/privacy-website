@@ -32,7 +32,7 @@ If you need to learn more about your users, you can ask for a site ID and tracki
 either privacy@apache.org or in the ASF slack channel #privacy-matomo.
 We enforce cookieless measurements. 
 
-A basis tracking code for Matomo looks like this (where `<YourSiteId>` is replaced by the provided site ID):
+A basic tracking code for Matomo looks like this (where `<YourSiteId>` is replaced by the provided site ID):
 
 ```javascript
 <!-- Matomo -->
