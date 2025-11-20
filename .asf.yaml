@@ -3,6 +3,10 @@
 github:
   description: "Web site for Apache Data Privacy"
   homepage: https://privacy.apache.org/
+  labels:
+    - apache
+    - privacy
+    - jekyll
 jekyll:
   whoami: main
   target: asf-site
