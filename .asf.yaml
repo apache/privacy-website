@@ -6,6 +6,7 @@ github:
   labels:
     - apache
     - privacy
+    - website
     - jekyll
 jekyll:
   whoami: main
