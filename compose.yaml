@@ -1,0 +1,9 @@
+services:
+  privacy_apache_org:
+    image: apache/privacy_apache_org
+    build: .
+    ports:
+      - "4000:4000"
+    volumes:
+      - $PWD:/root/build
+    command: serve --watch --incremental
