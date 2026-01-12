@@ -2,6 +2,11 @@
 
 This is the source code for the website at [privacy.apache.org](https://privacy.apache.org).
 
+## Automated website build
+
+The main build of the website is performed by [a buildbot job](https://ci2.apache.org/#/builders/7)
+when a change is pushed to the main branch.
+
 ## Develop this website
 
 To develop content for this website, you need to make sure you have
