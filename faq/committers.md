@@ -104,6 +104,10 @@ It is possible to use their service.
 Yes: Kapa has signed a DPA with us. Please ensure that Kapa.AI is implemented in a way
 it requires user consent before loading. This feature is provided by Kapa in their settings.
 
+### Can I use Algolia on our website (AI Search)?
+
+Yes: Algolia  has signed a DPA with us.
+
 ### Can I use another analytics/tracking etc software?
 
 Before using any further tracking software, please ask privacy@apache.org.
