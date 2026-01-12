@@ -30,6 +30,8 @@ you'll have to run this command:
 docker compose up
 ```
 
+If this fails to start, remove Gemfile.lock and try again.
+
 Once it runs, you can reach your website at:
 
 ```
