@@ -12,7 +12,9 @@ source "https://rubygems.org"
 #
 # If it is desired to use a lock file, this must be added to the repository
 # and copied in during the build phase. It must also be maintained.
-lockfile false
+# lockfile false
+# Unfortunately this requires a more recent version of bundler on the buildbot host.
+# The workround is to just delete Gemfile.lock before using 'docker compose up'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
