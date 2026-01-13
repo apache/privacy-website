@@ -36,7 +36,6 @@ COPY Gemfile .
 RUN bundle install && bundle list
 
 EXPOSE 4000
-EXPOSE 35729
 
 # $0 = Commando, $@ Arguments!
 ENTRYPOINT ["sh", "-c", "bundle exec jekyll $0 $@ --host 0.0.0.0"]
