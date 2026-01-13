@@ -1,4 +1,19 @@
 source "https://rubygems.org"
+
+# Don't create Gemfile.lock. It can cause issues with Docker builds.
+# This is because bundle is run twice:
+# - when building the image, at which point the host code is not mapped.
+#   This means bundle install will use the most recent compatible gems.
+#   The command will create a Gemfile.lock, but it is not copied back to the host.
+# - when running the image, at this point the host code is mapped.
+#   This means bundle will use Gemfile.lock from the host if present.
+#   If the image has been built in the meantime, the installed gem versions may
+#   disagree with the earlier lock file, and bundle will fail with missing gem(s)
+#
+# If it is desired to use a lock file, this must be added to the repository
+# and copied in during the build phase. It must also be maintained.
+lockfile false
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
