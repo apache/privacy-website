@@ -41,5 +41,6 @@ Please read about our [latest changes here](/policies/latest-changes.html).
 
 ## Internal Policies
 
+ - [AI Policy](/policies/ai-policy.html)
  - [Website Policy](/policies/website-policy.html)
  - [Mailing List Policy](/policies/mailinglist-policy.html)
