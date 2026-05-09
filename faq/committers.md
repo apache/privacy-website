@@ -108,6 +108,20 @@ it requires user consent before loading. This feature is provided by Kapa in the
 
 Yes: Algolia  has signed a DPA with us.
 
+### Can I use Giscus for comments on our website?
+
+Yes, when it is loaded only after explicit user consent. No Giscus resources
+may load before the user clicks to activate the comments widget.
+
+The consent notice should clearly explain that activating comments connects the
+visitor to Giscus/GitHub services and that posted comments are stored in GitHub
+Discussions. For example:
+
+"Clicking to load comments connects to Giscus/GitHub services. Posted comments
+are stored in GitHub Discussions."
+
+Under these conditions, no DPA is necessary.
+
 ### Can I use another analytics/tracking etc software?
 
 Before using any further tracking software, please ask privacy@apache.org.
