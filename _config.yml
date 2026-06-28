@@ -50,3 +50,8 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# These do not belong in the generated site
+exclude:
+  - Dockerfile
+  - compose.yaml
