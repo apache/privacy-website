@@ -1,5 +1,3 @@
-# https://github.com/apache/infrastructure-asfyaml/blob/main/README.md
----
 github:
   description: "Web site for Apache Data Privacy"
   homepage: https://privacy.apache.org/
@@ -8,6 +6,19 @@ github:
     - privacy
     - website
     - jekyll
+  rulesets:
+    - name: "Default Branch Protection"
+      type: branch
+      branches:
+        includes:
+          - "~DEFAULT_BRANCH"
+          - "release/*"
+          - "rel/*"
+        excludes: []
+      bypass_teams:
+        - root
+      restrict_deletion: true
+      restrict_force_push: true
 jekyll:
   whoami: main
   target: asf-site
@@ -15,6 +26,6 @@ publish:
   whoami: asf-site
 notifications:
   commits: privacy-commits@apache.org
-  issues:  privacy-commits@apache.org
+  issues: privacy-commits@apache.org
   pullrequests: privacy-commits@apache.org
 
