@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y \
   zlib1g-dev \
   git \
   curl \
-  bash  
+  bash
 
 WORKDIR /root/build
 
