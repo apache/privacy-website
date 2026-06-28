@@ -2,4 +2,4 @@
 # Additional allowances to be coordinated with privacy team
 # https://www.youtube-nocookie.com is needed for with-youtube-embeds.html
 # https://www.youtube.com is needed for with-youtube-api.html
-SetEnv CSP_PROJECT_DOMAINS "https://www.youtube-nocookie.com https://www.youtube.com" 
+SetEnv CSP_PROJECT_DOMAINS "https://www.youtube-nocookie.com https://www.youtube.com"
