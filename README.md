@@ -14,8 +14,8 @@ Docker installed. Once installed, you can run this command
 to create a docker image:
 
 ```
-$> cd <your project folder>
-$> docker compose build
+$ cd <your project folder>
+$ docker compose build
 ```
 
 Whenever you change something in the Dockers dependencies, you have to recreate
